@@ -1,0 +1,617 @@
+.btn{
+    width:-moz-fit-content;
+    width:fit-content;
+    height:-moz-fit-content;
+    height:fit-content;
+    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg rounded-md transition-colors cursor-pointer  bg-gray-100   
+    focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200;
+}
+
+    .btn:not(.btn-static){
+        @apply hover:bg-gray-200;
+    }
+
+    .btn-xs{
+        @apply text-sm py-0.5 px-1;
+    }
+
+    .btn-sm{
+        @apply text-base py-1 px-2}
+
+    .btn-lg{
+        @apply text-2xl py-2.5 px-5;
+    }
+
+    .btn-ghost{
+        @apply bg-transparent;
+    }
+
+    .btn-ghost:not(.btn-static){
+        @apply hover:bg-gray-100;
+    }
+
+    .btn-outline{
+        @apply bg-transparent border-2 border-gray-200;
+    }
+
+    .btn-outline:not(.btn-static){    
+        @apply hover:bg-gray-100;
+    }
+
+    .btn-slate{
+            @apply bg-slate-500 text-white 
+            focus:ring-slate-400;
+        }
+
+    .btn-slate:not(.btn-static){
+            @apply hover:bg-slate-600;
+        }
+
+    .btn-slate.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-slate.btn-ghost:not(.btn-static){      
+            hover:bg-slate-200
+        }
+
+    .btn-slate.btn-outline{
+            @apply bg-transparent text-black border-2 border-slate-300;
+        }
+
+    .btn-slate.btn-outline:not(.btn-static){
+            @apply hover:bg-slate-200;
+        }
+
+    .btn-gray{
+            @apply bg-gray-500 text-white 
+            focus:ring-gray-400;
+        }
+
+    .btn-gray:not(.btn-static){
+            @apply hover:bg-gray-600;
+        }
+
+    .btn-gray.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-gray.btn-ghost:not(.btn-static){      
+            hover:bg-gray-200
+        }
+
+    .btn-gray.btn-outline{
+            @apply bg-transparent text-black border-2 border-gray-300;
+        }
+
+    .btn-gray.btn-outline:not(.btn-static){
+            @apply hover:bg-gray-200;
+        }
+
+    .btn-zinc{
+            @apply bg-zinc-500 text-white 
+            focus:ring-zinc-400;
+        }
+
+    .btn-zinc:not(.btn-static){
+            @apply hover:bg-zinc-600;
+        }
+
+    .btn-zinc.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-zinc.btn-ghost:not(.btn-static){      
+            hover:bg-zinc-200
+        }
+
+    .btn-zinc.btn-outline{
+            @apply bg-transparent text-black border-2 border-zinc-300;
+        }
+
+    .btn-zinc.btn-outline:not(.btn-static){
+            @apply hover:bg-zinc-200;
+        }
+
+    .btn-neutral{
+            @apply bg-neutral-500 text-white 
+            focus:ring-neutral-400;
+        }
+
+    .btn-neutral:not(.btn-static){
+            @apply hover:bg-neutral-600;
+        }
+
+    .btn-neutral.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-neutral.btn-ghost:not(.btn-static){      
+            hover:bg-neutral-200
+        }
+
+    .btn-neutral.btn-outline{
+            @apply bg-transparent text-black border-2 border-neutral-300;
+        }
+
+    .btn-neutral.btn-outline:not(.btn-static){
+            @apply hover:bg-neutral-200;
+        }
+
+    .btn-stone{
+            @apply bg-stone-500 text-white 
+            focus:ring-stone-400;
+        }
+
+    .btn-stone:not(.btn-static){
+            @apply hover:bg-stone-600;
+        }
+
+    .btn-stone.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-stone.btn-ghost:not(.btn-static){      
+            hover:bg-stone-200
+        }
+
+    .btn-stone.btn-outline{
+            @apply bg-transparent text-black border-2 border-stone-300;
+        }
+
+    .btn-stone.btn-outline:not(.btn-static){
+            @apply hover:bg-stone-200;
+        }
+
+    .btn-red{
+            @apply bg-red-500 text-white 
+            focus:ring-red-400;
+        }
+
+    .btn-red:not(.btn-static){
+            @apply hover:bg-red-600;
+        }
+
+    .btn-red.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-red.btn-ghost:not(.btn-static){      
+            hover:bg-red-200
+        }
+
+    .btn-red.btn-outline{
+            @apply bg-transparent text-black border-2 border-red-300;
+        }
+
+    .btn-red.btn-outline:not(.btn-static){
+            @apply hover:bg-red-200;
+        }
+
+    .btn-orange{
+            @apply bg-orange-500 text-white 
+            focus:ring-orange-400;
+        }
+
+    .btn-orange:not(.btn-static){
+            @apply hover:bg-orange-600;
+        }
+
+    .btn-orange.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-orange.btn-ghost:not(.btn-static){      
+            hover:bg-orange-200
+        }
+
+    .btn-orange.btn-outline{
+            @apply bg-transparent text-black border-2 border-orange-300;
+        }
+
+    .btn-orange.btn-outline:not(.btn-static){
+            @apply hover:bg-orange-200;
+        }
+
+    .btn-amber{
+            @apply bg-amber-500 text-white 
+            focus:ring-amber-400;
+        }
+
+    .btn-amber:not(.btn-static){
+            @apply hover:bg-amber-600;
+        }
+
+    .btn-amber.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-amber.btn-ghost:not(.btn-static){      
+            hover:bg-amber-200
+        }
+
+    .btn-amber.btn-outline{
+            @apply bg-transparent text-black border-2 border-amber-300;
+        }
+
+    .btn-amber.btn-outline:not(.btn-static){
+            @apply hover:bg-amber-200;
+        }
+
+    .btn-yellow{
+            @apply bg-yellow-500 text-white 
+            focus:ring-yellow-400;
+        }
+
+    .btn-yellow:not(.btn-static){
+            @apply hover:bg-yellow-600;
+        }
+
+    .btn-yellow.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-yellow.btn-ghost:not(.btn-static){      
+            hover:bg-yellow-200
+        }
+
+    .btn-yellow.btn-outline{
+            @apply bg-transparent text-black border-2 border-yellow-300;
+        }
+
+    .btn-yellow.btn-outline:not(.btn-static){
+            @apply hover:bg-yellow-200;
+        }
+
+    .btn-lime{
+            @apply bg-lime-500 text-white 
+            focus:ring-lime-400;
+        }
+
+    .btn-lime:not(.btn-static){
+            @apply hover:bg-lime-600;
+        }
+
+    .btn-lime.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-lime.btn-ghost:not(.btn-static){      
+            hover:bg-lime-200
+        }
+
+    .btn-lime.btn-outline{
+            @apply bg-transparent text-black border-2 border-lime-300;
+        }
+
+    .btn-lime.btn-outline:not(.btn-static){
+            @apply hover:bg-lime-200;
+        }
+
+    .btn-green{
+            @apply bg-green-500 text-white 
+            focus:ring-green-400;
+        }
+
+    .btn-green:not(.btn-static){
+            @apply hover:bg-green-600;
+        }
+
+    .btn-green.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-green.btn-ghost:not(.btn-static){      
+            hover:bg-green-200
+        }
+
+    .btn-green.btn-outline{
+            @apply bg-transparent text-black border-2 border-green-300;
+        }
+
+    .btn-green.btn-outline:not(.btn-static){
+            @apply hover:bg-green-200;
+        }
+
+    .btn-emerald{
+            @apply bg-emerald-500 text-white 
+            focus:ring-emerald-400;
+        }
+
+    .btn-emerald:not(.btn-static){
+            @apply hover:bg-emerald-600;
+        }
+
+    .btn-emerald.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-emerald.btn-ghost:not(.btn-static){      
+            hover:bg-emerald-200
+        }
+
+    .btn-emerald.btn-outline{
+            @apply bg-transparent text-black border-2 border-emerald-300;
+        }
+
+    .btn-emerald.btn-outline:not(.btn-static){
+            @apply hover:bg-emerald-200;
+        }
+
+    .btn-teal{
+            @apply bg-teal-500 text-white 
+            focus:ring-teal-400;
+        }
+
+    .btn-teal:not(.btn-static){
+            @apply hover:bg-teal-600;
+        }
+
+    .btn-teal.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-teal.btn-ghost:not(.btn-static){      
+            hover:bg-teal-200
+        }
+
+    .btn-teal.btn-outline{
+            @apply bg-transparent text-black border-2 border-teal-300;
+        }
+
+    .btn-teal.btn-outline:not(.btn-static){
+            @apply hover:bg-teal-200;
+        }
+
+    .btn-cyan{
+            @apply bg-cyan-500 text-white 
+            focus:ring-cyan-400;
+        }
+
+    .btn-cyan:not(.btn-static){
+            @apply hover:bg-cyan-600;
+        }
+
+    .btn-cyan.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-cyan.btn-ghost:not(.btn-static){      
+            hover:bg-cyan-200
+        }
+
+    .btn-cyan.btn-outline{
+            @apply bg-transparent text-black border-2 border-cyan-300;
+        }
+
+    .btn-cyan.btn-outline:not(.btn-static){
+            @apply hover:bg-cyan-200;
+        }
+
+    .btn-sky{
+            @apply bg-sky-500 text-white 
+            focus:ring-sky-400;
+        }
+
+    .btn-sky:not(.btn-static){
+            @apply hover:bg-sky-600;
+        }
+
+    .btn-sky.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-sky.btn-ghost:not(.btn-static){      
+            hover:bg-sky-200
+        }
+
+    .btn-sky.btn-outline{
+            @apply bg-transparent text-black border-2 border-sky-300;
+        }
+
+    .btn-sky.btn-outline:not(.btn-static){
+            @apply hover:bg-sky-200;
+        }
+
+    .btn-blue{
+            @apply bg-blue-500 text-white 
+            focus:ring-blue-400;
+        }
+
+    .btn-blue:not(.btn-static){
+            @apply hover:bg-blue-600;
+        }
+
+    .btn-blue.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-blue.btn-ghost:not(.btn-static){      
+            hover:bg-blue-200
+        }
+
+    .btn-blue.btn-outline{
+            @apply bg-transparent text-black border-2 border-blue-300;
+        }
+
+    .btn-blue.btn-outline:not(.btn-static){
+            @apply hover:bg-blue-200;
+        }
+
+    .btn-indigo{
+            @apply bg-indigo-500 text-white 
+            focus:ring-indigo-400;
+        }
+
+    .btn-indigo:not(.btn-static){
+            @apply hover:bg-indigo-600;
+        }
+
+    .btn-indigo.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-indigo.btn-ghost:not(.btn-static){      
+            hover:bg-indigo-200
+        }
+
+    .btn-indigo.btn-outline{
+            @apply bg-transparent text-black border-2 border-indigo-300;
+        }
+
+    .btn-indigo.btn-outline:not(.btn-static){
+            @apply hover:bg-indigo-200;
+        }
+
+    .btn-violet{
+            @apply bg-violet-500 text-white 
+            focus:ring-violet-400;
+        }
+
+    .btn-violet:not(.btn-static){
+            @apply hover:bg-violet-600;
+        }
+
+    .btn-violet.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-violet.btn-ghost:not(.btn-static){      
+            hover:bg-violet-200
+        }
+
+    .btn-violet.btn-outline{
+            @apply bg-transparent text-black border-2 border-violet-300;
+        }
+
+    .btn-violet.btn-outline:not(.btn-static){
+            @apply hover:bg-violet-200;
+        }
+
+    .btn-purple{
+            @apply bg-purple-500 text-white 
+            focus:ring-purple-400;
+        }
+
+    .btn-purple:not(.btn-static){
+            @apply hover:bg-purple-600;
+        }
+
+    .btn-purple.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-purple.btn-ghost:not(.btn-static){      
+            hover:bg-purple-200
+        }
+
+    .btn-purple.btn-outline{
+            @apply bg-transparent text-black border-2 border-purple-300;
+        }
+
+    .btn-purple.btn-outline:not(.btn-static){
+            @apply hover:bg-purple-200;
+        }
+
+    .btn-fuchsia{
+            @apply bg-fuchsia-500 text-white 
+            focus:ring-fuchsia-400;
+        }
+
+    .btn-fuchsia:not(.btn-static){
+            @apply hover:bg-fuchsia-600;
+        }
+
+    .btn-fuchsia.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-fuchsia.btn-ghost:not(.btn-static){      
+            hover:bg-fuchsia-200
+        }
+
+    .btn-fuchsia.btn-outline{
+            @apply bg-transparent text-black border-2 border-fuchsia-300;
+        }
+
+    .btn-fuchsia.btn-outline:not(.btn-static){
+            @apply hover:bg-fuchsia-200;
+        }
+
+    .btn-pink{
+            @apply bg-pink-500 text-white 
+            focus:ring-pink-400;
+        }
+
+    .btn-pink:not(.btn-static){
+            @apply hover:bg-pink-600;
+        }
+
+    .btn-pink.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-pink.btn-ghost:not(.btn-static){      
+            hover:bg-pink-200
+        }
+
+    .btn-pink.btn-outline{
+            @apply bg-transparent text-black border-2 border-pink-300;
+        }
+
+    .btn-pink.btn-outline:not(.btn-static){
+            @apply hover:bg-pink-200;
+        }
+
+    .btn-rose{
+            @apply bg-rose-500 text-white 
+            focus:ring-rose-400;
+        }
+
+    .btn-rose:not(.btn-static){
+            @apply hover:bg-rose-600;
+        }
+
+    .btn-rose.btn-ghost{
+            @apply bg-transparent text-black;
+        }
+
+    .btn-rose.btn-ghost:not(.btn-static){      
+            hover:bg-rose-200
+        }
+
+    .btn-rose.btn-outline{
+            @apply bg-transparent text-black border-2 border-rose-300;
+        }
+
+    .btn-rose.btn-outline:not(.btn-static){
+            @apply hover:bg-rose-200;
+        }
+
+.btn-icon{
+    @apply py-2 px-2;
+}
+
+.btn-group{
+    @apply flex flex-row items-center space-x-0;
+}
+
+.btn-group .btn{
+        @apply rounded-none;
+    }
+
+.btn-group .btn:first-child{
+            @apply rounded-l-md;
+        }
+
+.btn-group .btn:last-child{
+            @apply rounded-r-md;
+        }
+
+.btn-group .btn:not(:first-child){
+            @apply ml-0;
+        }
+
+.btn-group .btn:not(:last-child){
+            @apply mr-0;
+        }

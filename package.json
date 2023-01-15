@@ -1,0 +1,35 @@
+{
+  "name": "lotusui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "postcss src/components/*.css --dir src/css",
+    "transpile": "(cd src/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
+    "build": "pnpm compile && pnpm transpile",
+    "watch": "onchange \"src/components/*.css\" -- pnpm build",
+    "demo": "(cd demo && pnpm dev);",
+    "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "onchange": "^7.1.0",
+    "postcss": "^8.4.21",
+    "postcss-apply": "^0.12.0",
+    "postcss-cli": "^10.1.0",
+    "postcss-discard-comments": "^5.1.2",
+    "postcss-each": "^1.1.0",
+    "postcss-minify": "^1.1.0",
+    "postcss-nested": "^6.0.0",
+    "postcss-rtl": "^2.0.0",
+    "prejss-cli": "^0.3.3",
+    "rollup": "^3.10.0"
+  }
+}

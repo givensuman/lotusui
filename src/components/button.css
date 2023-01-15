@@ -1,0 +1,89 @@
+.btn {
+    width: fit-content;
+    height: fit-content;
+    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg rounded-md transition-colors cursor-pointer  bg-gray-100   
+    focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200;
+
+    /* Size Variants */
+
+    &:not(&-static) {
+        @apply hover:bg-gray-200;
+    }
+
+    &-xs {
+        @apply text-sm py-0.5 px-1;
+    }
+
+    &-sm {
+        @apply text-base py-1 px-2
+    }
+
+    &-lg {
+        @apply text-2xl py-2.5 px-5;
+    }
+
+    /* Style Variants */
+    
+    &-ghost {
+        @apply bg-transparent;
+    }
+    &-ghost:not(.btn-static) {
+        @apply hover:bg-gray-100;
+    }
+
+    &-outline {
+        @apply bg-transparent border-2 border-gray-200;
+    }
+    &-outline:not(.btn-static) {    
+        @apply hover:bg-gray-100;
+    }
+
+    /* Color Variants */
+
+    @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
+        &-$(color) {
+            @apply bg-$(color)-500 text-white 
+            focus:ring-$(color)-400;
+        }
+        &-$(color):not(.btn-static) {
+            @apply hover:bg-$(color)-600;
+        }
+        &-$(color).btn-ghost {
+            @apply bg-transparent text-black;
+        }
+        &-$(color).btn-ghost:not(.btn-static) {      
+            hover:bg-$(color)-200
+        }
+        &-$(color).btn-outline {
+            @apply bg-transparent text-black border-2 border-$(color)-300;
+        }
+        &-$(color).btn-outline:not(.btn-static) {
+            @apply hover:bg-$(color)-200;
+        }
+    }
+}
+
+.btn-icon {
+    @apply py-2 px-2;
+}
+
+.btn-group {
+    @apply flex flex-row items-center space-x-0;
+
+    .btn {
+        @apply rounded-none;
+
+        &:first-child {
+            @apply rounded-l-md;
+        }
+        &:last-child {
+            @apply rounded-r-md;
+        }
+        &:not(:first-child) {
+            @apply ml-0;
+        }
+        &:not(:last-child) {
+            @apply mr-0;
+        }
+    }
+}

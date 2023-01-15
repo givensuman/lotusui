@@ -1,0 +1,1 @@
+module.exports = {".checkbox":{"@apply max-w-lg bg-gray-50 border-gray-300 h-4 w-4 text-sm text-gray-400 cursor-pointer":true}};
