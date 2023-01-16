@@ -1,6 +1,8 @@
 (README is a WIP)
 
-# lotusUI
+<img src="assets/logo.png" alt="lotus flower">
+
+# lotusui
 
 Tailwind CSS components inspired by Chakra design.
 
