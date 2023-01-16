@@ -1,10 +1,11 @@
 (README is a WIP)
 
-<img src="assets/logo.png" alt="lotus flower" align="center" height="128px" width="128px" />
+<img src="assets/logo.svg" alt="lotus flower" align="center" />
 
-# lotusui
+## Tailwind CSS components inspired by Chakra design.
 
-Tailwind CSS components inspired by Chakra design.
+
+<br />
 
 ## What's inside?
 This library is a TailwindCSS plugin that provides components to help quickly scaffold your projects.
@@ -12,6 +13,7 @@ This library is a TailwindCSS plugin that provides components to help quickly sc
     - Tailwind-extensible
     - Pure CSS, works with all browsers and frameworks
     - Tiny (blah kb)
+
 
 ## Installation
 ```bash
