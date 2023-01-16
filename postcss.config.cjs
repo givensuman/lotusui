@@ -5,7 +5,7 @@ module.exports = {
     require("postcss-nested"),
     require("postcss-discard-comments"),
     require("postcss-each"),
-    require("postcss-rtl"),
+    // require("postcss-rtl"),
     require("autoprefixer"),
   ],
 };

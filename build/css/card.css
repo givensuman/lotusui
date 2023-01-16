@@ -1,0 +1,22 @@
+.card{
+    @apply block max-w-sm p-4 bg-white border border-gray-200 rounded-lg
+    dark:bg-gray-600 dark:text-white dark:border-gray-800;
+}
+
+    .card img{
+        @apply mb-4 rounded-md;
+    }
+
+.card-header{
+    @apply mb-2 text-2xl font-bold tracking-tight;
+}
+
+.card-body{
+    @apply font-normal text-gray-700
+    dark:text-gray-100;
+}
+
+.card-footer{
+    @apply mt-auto pt-4 font-normal text-gray-600
+    dark:text-gray-200;
+}

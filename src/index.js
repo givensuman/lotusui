@@ -1,11 +1,15 @@
 const plugin = require("tailwindcss/plugin");
 
 const button = require("./jss/button");
-const checkbox = require("./jss/checkbox");
+const badge = require("./jss/badge");
+const card = require("./jss/card");
+const divider = require("./jss/divider");
 
 module.exports = plugin(({ addComponents }) => {
   addComponents({
     ...button,
-    ...checkbox,
+    ...badge,
+    ...card,
+    ...divider,
   });
 });

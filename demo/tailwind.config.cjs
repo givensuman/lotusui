@@ -4,5 +4,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("../src/index")],
+  plugins: [require("../build")],
+  darkMode: "class",
 };

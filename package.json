@@ -6,8 +6,8 @@
   "scripts": {
     "compile": "postcss src/components/*.css --dir build/css",
     "transpile": "(cd build/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
-    "build": "pnpm compile && pnpm transpile && (cp src/index.js build);",
-    "watch": "onchange \"src/components/*.css\" -- pnpm build",
+    "build": "(cp src/index.js build); && pnpm compile && pnpm transpile",
+    "watch": "onchange \"src/**/*.{js,css}\" -- pnpm build",
     "demo": "(cd demo && pnpm dev);",
     "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
   },

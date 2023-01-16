@@ -25,17 +25,21 @@
     /* Style Variants */
     
     &-ghost {
-        @apply bg-transparent;
+        @apply bg-transparent 
+        dark:text-inherit;
     }
     &-ghost:not(.btn-static) {
-        @apply hover:bg-gray-100;
+        @apply hover:bg-gray-100
+        dark:hover:text-black;
     }
 
     &-outline {
-        @apply bg-transparent border-2 border-gray-200;
+        @apply bg-transparent border-2 border-gray-200
+        dark:text-inherit;
     }
     &-outline:not(.btn-static) {    
-        @apply hover:bg-gray-100;
+        @apply hover:bg-gray-100
+        dark:hover:text-black;
     }
 
     /* Color Variants */
@@ -49,16 +53,20 @@
             @apply hover:bg-$(color)-600;
         }
         &-$(color).btn-ghost {
-            @apply bg-transparent text-black;
+            @apply bg-transparent text-black 
+            dark:text-inherit;
         }
         &-$(color).btn-ghost:not(.btn-static) {      
-            hover:bg-$(color)-200
+            @apply hover:bg-$(color)-200
+            dark:hover:text-black;
         }
         &-$(color).btn-outline {
-            @apply bg-transparent text-black border-2 border-$(color)-300;
+            @apply bg-transparent text-black border-2 border-$(color)-300
+            dark:text-inherit;
         }
         &-$(color).btn-outline:not(.btn-static) {
-            @apply hover:bg-$(color)-200;
+            @apply hover:bg-$(color)-200
+            dark:hover:text-black;
         }
     }
 }
@@ -68,7 +76,7 @@
 }
 
 .btn-group {
-    @apply flex flex-row items-center space-x-0;
+    @apply inline-flex space-x-0;
 
     .btn {
         @apply rounded-none;

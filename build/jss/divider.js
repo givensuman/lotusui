@@ -1,0 +1,1 @@
+module.exports = {".divider":{"@apply h-px my-8 bg-gray-200 border-0 \r\n    dark:bg-gray-700":true}};
