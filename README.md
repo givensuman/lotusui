@@ -1,6 +1,6 @@
 (README is a WIP)
 
-<img src="assets/logo.png" alt="lotus flower">
+<img src="assets/logo.png" alt="lotus flower" align="center" height="128px" width="128px" />
 
 # lotusui
 
