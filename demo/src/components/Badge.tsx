@@ -15,6 +15,14 @@ const Badge = () => {
                     New
                 </span>
             </div>
+            <div className="flex flex-row">
+                <h1 className="text-lg mr-2">
+                    lotusui
+                    <span className="badge badge-teal relative bottom-1 left-1">
+                        New
+                    </span>
+                </h1>
+            </div>
         </div>
     )
 }
