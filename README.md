@@ -11,7 +11,7 @@
 This library is a TailwindCSS plugin that provides components to help quickly scaffold your projects.
 
     - Tailwind-extensible
-    - Pure CSS, works with all browsers and frameworks
+    - Works with all browsers and frameworks
     - Tiny (blah kb)
 
 

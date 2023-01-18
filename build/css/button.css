@@ -3,7 +3,7 @@
     width:fit-content;
     height:-moz-fit-content;
     height:fit-content;
-    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg rounded-md transition-colors cursor-pointer  bg-gray-100   
+    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg text-black rounded-md transition-colors cursor-pointer  bg-gray-100   
     focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200;
 }
 

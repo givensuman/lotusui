@@ -4,19 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "hello": "cat README.md",
     "compile": "postcss src/components/*.css --dir build/css",
     "transpile": "(cd build/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
     "build": "(cp src/index.js build); && pnpm compile && pnpm transpile",
     "watch": "onchange \"src/**/*.{js,css}\" -- pnpm build",
     "demo": "(cd demo && pnpm dev);",
-    "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
+    "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan",
+    "cosmos": "concurrently \"pnpm watch\" \"(cd demo && pnpm start:renderer);\" \"(cd demo && pnpm cosmos);\" -n build🔨,demo🎨,server🤖 -c magenta,cyan,gray"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "tailwindcss": "^3.2.4"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "concurrently": "^7.6.0",
@@ -31,5 +30,8 @@
     "postcss-rtl": "^2.0.0",
     "prejss-cli": "^0.3.3",
     "rollup": "^3.10.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }
