@@ -2,12 +2,14 @@
     width: fit-content;
     height: fit-content;
     @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg text-black rounded-md transition-colors cursor-pointer  bg-gray-100   
-    focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200;
+    focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200
+    dark:bg-gray-700 dark:text-inherit dark:ring-sky-700;
 
     /* Size Variants */
 
     &:not(&-static) {
-        @apply hover:bg-gray-200;
+        @apply hover:bg-gray-200
+        dark:hover:bg-gray-600;
     }
 
     &-xs {
@@ -26,20 +28,18 @@
     
     &-ghost {
         @apply bg-transparent 
-        dark:text-inherit;
+        dark:bg-transparent dark:text-inherit;
     }
     &-ghost:not(.btn-static) {
-        @apply hover:bg-gray-100
-        dark:hover:text-black;
+        @apply hover:bg-gray-200/50;
     }
 
     &-outline {
         @apply bg-transparent border-2 border-gray-200
-        dark:text-inherit;
+        dark:bg-transparent dark:text-inherit dark:border-gray-700;
     }
     &-outline:not(.btn-static) {    
-        @apply hover:bg-gray-100
-        dark:hover:text-black;
+        @apply hover:bg-gray-200/50;
     }
 
     /* Color Variants */
@@ -47,26 +47,28 @@
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
         &-$(color) {
             @apply bg-$(color)-500 text-white 
-            focus:ring-$(color)-400;
+            focus:ring-$(color)-400
+            dark:bg-$(color)-500;
         }
         &-$(color):not(.btn-static) {
-            @apply hover:bg-$(color)-600;
+            @apply hover:bg-$(color)-600
+            dark:hover:bg-$(color)-600;
         }
         &-$(color).btn-ghost {
-            @apply bg-transparent text-black 
-            dark:text-inherit;
+            @apply bg-transparent text-$(color)-700 
+            dark:text-$(color)-300;
         }
         &-$(color).btn-ghost:not(.btn-static) {      
-            @apply hover:bg-$(color)-200
-            dark:hover:text-black;
+            @apply hover:bg-$(color)-200/50
+            dark:hover:bg-$(color)-200/25;
         }
         &-$(color).btn-outline {
-            @apply bg-transparent text-black border-2 border-$(color)-300
-            dark:text-inherit;
+            @apply bg-transparent text-$(color)-700 border-2 border-$(color)-500 text-$(color)-700
+            dark:text-$(color)-300;
         }
         &-$(color).btn-outline:not(.btn-static) {
-            @apply hover:bg-$(color)-200
-            dark:hover:text-black;
+            @apply hover:bg-$(color)-200/50
+            dark:hover:bg-$(color)-200/25;
         }
     }
 }

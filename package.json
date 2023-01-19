@@ -10,8 +10,7 @@
     "build": "(cp src/index.js build); && pnpm compile && pnpm transpile",
     "watch": "onchange \"src/**/*.{js,css}\" -- pnpm build",
     "demo": "(cd demo && pnpm dev);",
-    "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan",
-    "cosmos": "concurrently \"pnpm watch\" \"(cd demo && pnpm start:renderer);\" \"(cd demo && pnpm cosmos);\" -n build🔨,demo🎨,server🤖 -c magenta,cyan,gray"
+    "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
   },
   "keywords": [],
   "author": "",

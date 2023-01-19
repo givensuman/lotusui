@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: white;
+.app {
+    @apply min-h-screen min-w-full bg-white dark:bg-slate-800;
 }

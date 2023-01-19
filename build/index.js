@@ -1,5 +1,6 @@
 const plugin = require("tailwindcss/plugin");
 
+const app = require("./jss/app");
 const button = require("./jss/button");
 const badge = require("./jss/badge");
 const card = require("./jss/card");

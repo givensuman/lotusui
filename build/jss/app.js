@@ -1,0 +1,1 @@
+module.exports = {".app":{"@apply min-h-screen min-w-full bg-white text-black\r\n    dark:bg-slate-800 dark:text-white":true}};

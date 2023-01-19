@@ -7,13 +7,14 @@ import Badge from "./components/Badge"
 
 function App() {
 
-  const [ isDarkMode, setIsDarkMode ] = useState(false)
+  const [ isDarkMode, setIsDarkMode ] = useState(true)
   const toggleDarkMode = () => setIsDarkMode(state => !state)
 
   return (
     <div className={clsx({
       "dark": isDarkMode
     })}>
+    <div className="app dark:text-white">
       <button
         onClick={toggleDarkMode}
         className="btn"
@@ -23,6 +24,7 @@ function App() {
       <Badge />
       <Card />
       <Button />
+    </div>
     </div>
   )
 }
