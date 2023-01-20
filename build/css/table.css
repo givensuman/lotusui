@@ -1,0 +1,43 @@
+.table{
+    @apply text-base text-left;
+}
+
+    .table caption{
+        caption-side:bottom;
+        @apply mt-4;
+    }
+
+    .table thead, .table tfoot{
+       @apply text-sm uppercase font-medium
+       dark:border-gray-700;
+    }
+
+    .table thead th, .table tfoot th{
+            @apply px-6 py-3 text-gray-600
+            dark:text-gray-400;
+       }
+
+    .table thead{
+        @apply border-b;
+    }
+
+    .table tfoot{
+        @apply border-t;
+    }
+
+    .table tbody tr{
+           @apply border-b
+           dark:border-gray-700;
+        }
+
+    .table tbody tr th{
+                @apply px-6 py-4 whitespace-nowrap;
+            }
+
+    .table tbody tr td{
+                @apply px-6 py-4 text-left;
+            }
+
+    .table tbody tr td:last-child{
+                    @apply text-right;
+                }

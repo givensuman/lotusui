@@ -1,0 +1,44 @@
+.table {
+    @apply text-base text-left;
+
+    caption {
+        caption-side: bottom;
+        @apply mt-4;
+    }
+
+    thead, tfoot {
+       @apply text-sm uppercase font-medium
+       dark:border-gray-700; 
+
+       th {
+            @apply px-6 py-3 text-gray-600
+            dark:text-gray-400;
+       }
+    }
+
+    thead {
+        @apply border-b;
+    }
+    tfoot {
+        @apply border-t;
+    }
+
+    tbody {
+        tr {
+           @apply border-b
+           dark:border-gray-700; 
+        
+            th {
+                @apply px-6 py-4 whitespace-nowrap;
+            }
+
+            td {
+                @apply px-6 py-4 text-left;
+
+                &:last-child {
+                    @apply text-right;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,347 @@
+.tag{
+    height:-moz-fit-content;
+    height:fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+
+    @apply bg-gray-200 text-gray-900 font-semibold text-lg rounded-md px-2 inline-flex items-center
+    dark:bg-gray-700 dark:text-inherit;
+}
+
+    .tag-sm{
+        @apply text-base;
+    }
+
+    .tag-lg{
+        @apply text-xl px-3 py-1;
+    }
+
+    .tag-slate{
+            @apply bg-slate-200/75 text-slate-700
+            dark:bg-slate-400/25 dark:text-slate-300;
+        }
+
+    .tag-slate.tag-solid{
+            @apply bg-slate-500 text-white
+            dark:bg-slate-500;
+        }
+
+    .tag-slate.tag-outline{
+            @apply bg-transparent border-2 border-slate-500 text-slate-700
+            dark:text-slate-300;
+        }
+
+    .tag-gray{
+            @apply bg-gray-200/75 text-gray-700
+            dark:bg-gray-400/25 dark:text-gray-300;
+        }
+
+    .tag-gray.tag-solid{
+            @apply bg-gray-500 text-white
+            dark:bg-gray-500;
+        }
+
+    .tag-gray.tag-outline{
+            @apply bg-transparent border-2 border-gray-500 text-gray-700
+            dark:text-gray-300;
+        }
+
+    .tag-zinc{
+            @apply bg-zinc-200/75 text-zinc-700
+            dark:bg-zinc-400/25 dark:text-zinc-300;
+        }
+
+    .tag-zinc.tag-solid{
+            @apply bg-zinc-500 text-white
+            dark:bg-zinc-500;
+        }
+
+    .tag-zinc.tag-outline{
+            @apply bg-transparent border-2 border-zinc-500 text-zinc-700
+            dark:text-zinc-300;
+        }
+
+    .tag-neutral{
+            @apply bg-neutral-200/75 text-neutral-700
+            dark:bg-neutral-400/25 dark:text-neutral-300;
+        }
+
+    .tag-neutral.tag-solid{
+            @apply bg-neutral-500 text-white
+            dark:bg-neutral-500;
+        }
+
+    .tag-neutral.tag-outline{
+            @apply bg-transparent border-2 border-neutral-500 text-neutral-700
+            dark:text-neutral-300;
+        }
+
+    .tag-stone{
+            @apply bg-stone-200/75 text-stone-700
+            dark:bg-stone-400/25 dark:text-stone-300;
+        }
+
+    .tag-stone.tag-solid{
+            @apply bg-stone-500 text-white
+            dark:bg-stone-500;
+        }
+
+    .tag-stone.tag-outline{
+            @apply bg-transparent border-2 border-stone-500 text-stone-700
+            dark:text-stone-300;
+        }
+
+    .tag-red{
+            @apply bg-red-200/75 text-red-700
+            dark:bg-red-400/25 dark:text-red-300;
+        }
+
+    .tag-red.tag-solid{
+            @apply bg-red-500 text-white
+            dark:bg-red-500;
+        }
+
+    .tag-red.tag-outline{
+            @apply bg-transparent border-2 border-red-500 text-red-700
+            dark:text-red-300;
+        }
+
+    .tag-orange{
+            @apply bg-orange-200/75 text-orange-700
+            dark:bg-orange-400/25 dark:text-orange-300;
+        }
+
+    .tag-orange.tag-solid{
+            @apply bg-orange-500 text-white
+            dark:bg-orange-500;
+        }
+
+    .tag-orange.tag-outline{
+            @apply bg-transparent border-2 border-orange-500 text-orange-700
+            dark:text-orange-300;
+        }
+
+    .tag-amber{
+            @apply bg-amber-200/75 text-amber-700
+            dark:bg-amber-400/25 dark:text-amber-300;
+        }
+
+    .tag-amber.tag-solid{
+            @apply bg-amber-500 text-white
+            dark:bg-amber-500;
+        }
+
+    .tag-amber.tag-outline{
+            @apply bg-transparent border-2 border-amber-500 text-amber-700
+            dark:text-amber-300;
+        }
+
+    .tag-yellow{
+            @apply bg-yellow-200/75 text-yellow-700
+            dark:bg-yellow-400/25 dark:text-yellow-300;
+        }
+
+    .tag-yellow.tag-solid{
+            @apply bg-yellow-500 text-white
+            dark:bg-yellow-500;
+        }
+
+    .tag-yellow.tag-outline{
+            @apply bg-transparent border-2 border-yellow-500 text-yellow-700
+            dark:text-yellow-300;
+        }
+
+    .tag-lime{
+            @apply bg-lime-200/75 text-lime-700
+            dark:bg-lime-400/25 dark:text-lime-300;
+        }
+
+    .tag-lime.tag-solid{
+            @apply bg-lime-500 text-white
+            dark:bg-lime-500;
+        }
+
+    .tag-lime.tag-outline{
+            @apply bg-transparent border-2 border-lime-500 text-lime-700
+            dark:text-lime-300;
+        }
+
+    .tag-green{
+            @apply bg-green-200/75 text-green-700
+            dark:bg-green-400/25 dark:text-green-300;
+        }
+
+    .tag-green.tag-solid{
+            @apply bg-green-500 text-white
+            dark:bg-green-500;
+        }
+
+    .tag-green.tag-outline{
+            @apply bg-transparent border-2 border-green-500 text-green-700
+            dark:text-green-300;
+        }
+
+    .tag-emerald{
+            @apply bg-emerald-200/75 text-emerald-700
+            dark:bg-emerald-400/25 dark:text-emerald-300;
+        }
+
+    .tag-emerald.tag-solid{
+            @apply bg-emerald-500 text-white
+            dark:bg-emerald-500;
+        }
+
+    .tag-emerald.tag-outline{
+            @apply bg-transparent border-2 border-emerald-500 text-emerald-700
+            dark:text-emerald-300;
+        }
+
+    .tag-teal{
+            @apply bg-teal-200/75 text-teal-700
+            dark:bg-teal-400/25 dark:text-teal-300;
+        }
+
+    .tag-teal.tag-solid{
+            @apply bg-teal-500 text-white
+            dark:bg-teal-500;
+        }
+
+    .tag-teal.tag-outline{
+            @apply bg-transparent border-2 border-teal-500 text-teal-700
+            dark:text-teal-300;
+        }
+
+    .tag-cyan{
+            @apply bg-cyan-200/75 text-cyan-700
+            dark:bg-cyan-400/25 dark:text-cyan-300;
+        }
+
+    .tag-cyan.tag-solid{
+            @apply bg-cyan-500 text-white
+            dark:bg-cyan-500;
+        }
+
+    .tag-cyan.tag-outline{
+            @apply bg-transparent border-2 border-cyan-500 text-cyan-700
+            dark:text-cyan-300;
+        }
+
+    .tag-sky{
+            @apply bg-sky-200/75 text-sky-700
+            dark:bg-sky-400/25 dark:text-sky-300;
+        }
+
+    .tag-sky.tag-solid{
+            @apply bg-sky-500 text-white
+            dark:bg-sky-500;
+        }
+
+    .tag-sky.tag-outline{
+            @apply bg-transparent border-2 border-sky-500 text-sky-700
+            dark:text-sky-300;
+        }
+
+    .tag-blue{
+            @apply bg-blue-200/75 text-blue-700
+            dark:bg-blue-400/25 dark:text-blue-300;
+        }
+
+    .tag-blue.tag-solid{
+            @apply bg-blue-500 text-white
+            dark:bg-blue-500;
+        }
+
+    .tag-blue.tag-outline{
+            @apply bg-transparent border-2 border-blue-500 text-blue-700
+            dark:text-blue-300;
+        }
+
+    .tag-indigo{
+            @apply bg-indigo-200/75 text-indigo-700
+            dark:bg-indigo-400/25 dark:text-indigo-300;
+        }
+
+    .tag-indigo.tag-solid{
+            @apply bg-indigo-500 text-white
+            dark:bg-indigo-500;
+        }
+
+    .tag-indigo.tag-outline{
+            @apply bg-transparent border-2 border-indigo-500 text-indigo-700
+            dark:text-indigo-300;
+        }
+
+    .tag-violet{
+            @apply bg-violet-200/75 text-violet-700
+            dark:bg-violet-400/25 dark:text-violet-300;
+        }
+
+    .tag-violet.tag-solid{
+            @apply bg-violet-500 text-white
+            dark:bg-violet-500;
+        }
+
+    .tag-violet.tag-outline{
+            @apply bg-transparent border-2 border-violet-500 text-violet-700
+            dark:text-violet-300;
+        }
+
+    .tag-purple{
+            @apply bg-purple-200/75 text-purple-700
+            dark:bg-purple-400/25 dark:text-purple-300;
+        }
+
+    .tag-purple.tag-solid{
+            @apply bg-purple-500 text-white
+            dark:bg-purple-500;
+        }
+
+    .tag-purple.tag-outline{
+            @apply bg-transparent border-2 border-purple-500 text-purple-700
+            dark:text-purple-300;
+        }
+
+    .tag-fuchsia{
+            @apply bg-fuchsia-200/75 text-fuchsia-700
+            dark:bg-fuchsia-400/25 dark:text-fuchsia-300;
+        }
+
+    .tag-fuchsia.tag-solid{
+            @apply bg-fuchsia-500 text-white
+            dark:bg-fuchsia-500;
+        }
+
+    .tag-fuchsia.tag-outline{
+            @apply bg-transparent border-2 border-fuchsia-500 text-fuchsia-700
+            dark:text-fuchsia-300;
+        }
+
+    .tag-pink{
+            @apply bg-pink-200/75 text-pink-700
+            dark:bg-pink-400/25 dark:text-pink-300;
+        }
+
+    .tag-pink.tag-solid{
+            @apply bg-pink-500 text-white
+            dark:bg-pink-500;
+        }
+
+    .tag-pink.tag-outline{
+            @apply bg-transparent border-2 border-pink-500 text-pink-700
+            dark:text-pink-300;
+        }
+
+    .tag-rose{
+            @apply bg-rose-200/75 text-rose-700
+            dark:bg-rose-400/25 dark:text-rose-300;
+        }
+
+    .tag-rose.tag-solid{
+            @apply bg-rose-500 text-white
+            dark:bg-rose-500;
+        }
+
+    .tag-rose.tag-outline{
+            @apply bg-transparent border-2 border-rose-500 text-rose-700
+            dark:text-rose-300;
+        }

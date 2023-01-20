@@ -21,8 +21,9 @@ const Button = () => {
           Button Group
         </h1>
         <div className="btn-group">
-          <button className="btn btn-green"></button>
-          <button className="btn btn-orange"></button>
+          <button className="btn btn-sky">Click</button>
+          <button className="btn btn-pink">Stuff</button>
+          <button className="btn btn-amber">Here</button>
         </div>
         <h1>Icon Button</h1>
         <div>

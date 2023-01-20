@@ -1,0 +1,130 @@
+.spinner{
+    @apply border-t-gray-700 border-r-gray-700  border-transparent animate-spin inline-block w-8 h-8 border-2 rounded-full
+    dark:border-t-gray-200 dark:border-r-gray-200;
+}
+
+    .spinner-xs{
+        @apply w-4 h-4;
+    }
+
+    .spinner-sm{
+        @apply w-6 h-6;
+    }
+
+    .spinner-lg{
+        @apply w-10 h-10;
+    }
+
+    .spinner-xl{
+        @apply w-12 h-12;
+    }
+
+    .spinner-slate{
+            @apply border-t-slate-500 border-r-slate-500
+            dark:border-t-slate-500 dark:border-r-slate-500;
+        }
+
+    .spinner-gray{
+            @apply border-t-gray-500 border-r-gray-500
+            dark:border-t-gray-500 dark:border-r-gray-500;
+        }
+
+    .spinner-zinc{
+            @apply border-t-zinc-500 border-r-zinc-500
+            dark:border-t-zinc-500 dark:border-r-zinc-500;
+        }
+
+    .spinner-neutral{
+            @apply border-t-neutral-500 border-r-neutral-500
+            dark:border-t-neutral-500 dark:border-r-neutral-500;
+        }
+
+    .spinner-stone{
+            @apply border-t-stone-500 border-r-stone-500
+            dark:border-t-stone-500 dark:border-r-stone-500;
+        }
+
+    .spinner-red{
+            @apply border-t-red-500 border-r-red-500
+            dark:border-t-red-500 dark:border-r-red-500;
+        }
+
+    .spinner-orange{
+            @apply border-t-orange-500 border-r-orange-500
+            dark:border-t-orange-500 dark:border-r-orange-500;
+        }
+
+    .spinner-amber{
+            @apply border-t-amber-500 border-r-amber-500
+            dark:border-t-amber-500 dark:border-r-amber-500;
+        }
+
+    .spinner-yellow{
+            @apply border-t-yellow-500 border-r-yellow-500
+            dark:border-t-yellow-500 dark:border-r-yellow-500;
+        }
+
+    .spinner-lime{
+            @apply border-t-lime-500 border-r-lime-500
+            dark:border-t-lime-500 dark:border-r-lime-500;
+        }
+
+    .spinner-green{
+            @apply border-t-green-500 border-r-green-500
+            dark:border-t-green-500 dark:border-r-green-500;
+        }
+
+    .spinner-emerald{
+            @apply border-t-emerald-500 border-r-emerald-500
+            dark:border-t-emerald-500 dark:border-r-emerald-500;
+        }
+
+    .spinner-teal{
+            @apply border-t-teal-500 border-r-teal-500
+            dark:border-t-teal-500 dark:border-r-teal-500;
+        }
+
+    .spinner-cyan{
+            @apply border-t-cyan-500 border-r-cyan-500
+            dark:border-t-cyan-500 dark:border-r-cyan-500;
+        }
+
+    .spinner-sky{
+            @apply border-t-sky-500 border-r-sky-500
+            dark:border-t-sky-500 dark:border-r-sky-500;
+        }
+
+    .spinner-blue{
+            @apply border-t-blue-500 border-r-blue-500
+            dark:border-t-blue-500 dark:border-r-blue-500;
+        }
+
+    .spinner-indigo{
+            @apply border-t-indigo-500 border-r-indigo-500
+            dark:border-t-indigo-500 dark:border-r-indigo-500;
+        }
+
+    .spinner-violet{
+            @apply border-t-violet-500 border-r-violet-500
+            dark:border-t-violet-500 dark:border-r-violet-500;
+        }
+
+    .spinner-purple{
+            @apply border-t-purple-500 border-r-purple-500
+            dark:border-t-purple-500 dark:border-r-purple-500;
+        }
+
+    .spinner-fuchsia{
+            @apply border-t-fuchsia-500 border-r-fuchsia-500
+            dark:border-t-fuchsia-500 dark:border-r-fuchsia-500;
+        }
+
+    .spinner-pink{
+            @apply border-t-pink-500 border-r-pink-500
+            dark:border-t-pink-500 dark:border-r-pink-500;
+        }
+
+    .spinner-rose{
+            @apply border-t-rose-500 border-r-rose-500
+            dark:border-t-rose-500 dark:border-r-rose-500;
+        }

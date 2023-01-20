@@ -1,0 +1,1 @@
+module.exports = {".kbd":{"width":["-moz-fit-content","fit-content"],"@apply px-1 py-px text-xs font-semibold font-mono text-gray-800 bg-gray-100 border border-b-2 border-gray-200 rounded-md \r\n    dark:bg-gray-700 dark:text-gray-100 dark:border-gray-500":true}};

@@ -78,7 +78,7 @@
 }
 
 .btn-group {
-    @apply inline-flex space-x-0;
+    @apply inline-flex items-center space-x-0;
 
     .btn {
         @apply rounded-none;
