@@ -1,9 +1,9 @@
 .btn {
     width: fit-content;
     height: fit-content;
-    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg text-black rounded-md transition-colors cursor-pointer  bg-gray-100   
+    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg text-black rounded-md transition-colors cursor-pointer bg-gray-100   
     focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200
-    dark:bg-gray-700 dark:text-inherit dark:ring-sky-700;
+    dark:bg-gray-700 dark:text-inherit dark:focus:ring-sky-700;
 
     /* Size Variants */
 
@@ -48,7 +48,7 @@
         &-$(color) {
             @apply bg-$(color)-500 text-white 
             focus:ring-$(color)-400
-            dark:bg-$(color)-500;
+            dark:bg-$(color)-500 dark:focus:ring-$(color)-400;
         }
         &-$(color):not(.btn-static) {
             @apply hover:bg-$(color)-600

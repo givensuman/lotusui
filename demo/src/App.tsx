@@ -8,6 +8,8 @@ import Tag from "./components/Tag"
 import Spinner from "./components/Spinner"
 import Kbd from "./components/Kbd"
 import Table from "./components/Table"
+import Input from "./components/Input"
+import Switch from "./components/Switch"
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
       >
         Toggle Dark Mode
       </button>
+      <Switch />
+      <Input />
       <Kbd />
       <Badge />
       <Card />

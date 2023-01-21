@@ -1,0 +1,146 @@
+.switch{
+    @apply appearance-none w-9 h-5 bg-gray-300 rounded-full transition-all duration-300 cursor-pointer flex items-center
+
+    focus:outline-none focus:ring-2 focus:ring-sky-200
+    
+    dark:bg-gray-600
+    dark:focus:ring-sky-700
+
+    checked:outline-none checked:bg-blue-500 checked:before:translate-x-full
+    
+    dark:checked:bg-blue-300
+    
+    before:inline-block before:rounded-full before:bg-white before:h-4 before:w-4 before:mx-0.5 before:transition-all;
+}
+        .switch-slate{
+            @apply focus:ring-slate-300
+            checked:bg-slate-500
+            dark:focus:ring-slate-500
+            dark:checked:bg-slate-300;
+        }
+        .switch-gray{
+            @apply focus:ring-gray-300
+            checked:bg-gray-500
+            dark:focus:ring-gray-500
+            dark:checked:bg-gray-300;
+        }
+        .switch-zinc{
+            @apply focus:ring-zinc-300
+            checked:bg-zinc-500
+            dark:focus:ring-zinc-500
+            dark:checked:bg-zinc-300;
+        }
+        .switch-neutral{
+            @apply focus:ring-neutral-300
+            checked:bg-neutral-500
+            dark:focus:ring-neutral-500
+            dark:checked:bg-neutral-300;
+        }
+        .switch-stone{
+            @apply focus:ring-stone-300
+            checked:bg-stone-500
+            dark:focus:ring-stone-500
+            dark:checked:bg-stone-300;
+        }
+        .switch-red{
+            @apply focus:ring-red-300
+            checked:bg-red-500
+            dark:focus:ring-red-500
+            dark:checked:bg-red-300;
+        }
+        .switch-orange{
+            @apply focus:ring-orange-300
+            checked:bg-orange-500
+            dark:focus:ring-orange-500
+            dark:checked:bg-orange-300;
+        }
+        .switch-amber{
+            @apply focus:ring-amber-300
+            checked:bg-amber-500
+            dark:focus:ring-amber-500
+            dark:checked:bg-amber-300;
+        }
+        .switch-yellow{
+            @apply focus:ring-yellow-300
+            checked:bg-yellow-500
+            dark:focus:ring-yellow-500
+            dark:checked:bg-yellow-300;
+        }
+        .switch-lime{
+            @apply focus:ring-lime-300
+            checked:bg-lime-500
+            dark:focus:ring-lime-500
+            dark:checked:bg-lime-300;
+        }
+        .switch-green{
+            @apply focus:ring-green-300
+            checked:bg-green-500
+            dark:focus:ring-green-500
+            dark:checked:bg-green-300;
+        }
+        .switch-emerald{
+            @apply focus:ring-emerald-300
+            checked:bg-emerald-500
+            dark:focus:ring-emerald-500
+            dark:checked:bg-emerald-300;
+        }
+        .switch-teal{
+            @apply focus:ring-teal-300
+            checked:bg-teal-500
+            dark:focus:ring-teal-500
+            dark:checked:bg-teal-300;
+        }
+        .switch-cyan{
+            @apply focus:ring-cyan-300
+            checked:bg-cyan-500
+            dark:focus:ring-cyan-500
+            dark:checked:bg-cyan-300;
+        }
+        .switch-sky{
+            @apply focus:ring-sky-300
+            checked:bg-sky-500
+            dark:focus:ring-sky-500
+            dark:checked:bg-sky-300;
+        }
+        .switch-blue{
+            @apply focus:ring-blue-300
+            checked:bg-blue-500
+            dark:focus:ring-blue-500
+            dark:checked:bg-blue-300;
+        }
+        .switch-indigo{
+            @apply focus:ring-indigo-300
+            checked:bg-indigo-500
+            dark:focus:ring-indigo-500
+            dark:checked:bg-indigo-300;
+        }
+        .switch-violet{
+            @apply focus:ring-violet-300
+            checked:bg-violet-500
+            dark:focus:ring-violet-500
+            dark:checked:bg-violet-300;
+        }
+        .switch-purple{
+            @apply focus:ring-purple-300
+            checked:bg-purple-500
+            dark:focus:ring-purple-500
+            dark:checked:bg-purple-300;
+        }
+        .switch-fuchsia{
+            @apply focus:ring-fuchsia-300
+            checked:bg-fuchsia-500
+            dark:focus:ring-fuchsia-500
+            dark:checked:bg-fuchsia-300;
+        }
+        .switch-pink{
+            @apply focus:ring-pink-300
+            checked:bg-pink-500
+            dark:focus:ring-pink-500
+            dark:checked:bg-pink-300;
+        }
+        .switch-rose{
+            @apply focus:ring-rose-300
+            checked:bg-rose-500
+            dark:focus:ring-rose-500
+            dark:checked:bg-rose-300;
+        }

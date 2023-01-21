@@ -1,0 +1,43 @@
+.input{
+    @apply w-full block px-3 py-2 border border-gray-200 rounded-md bg-transparent transition-colors
+    focus:outline-none focus:ring-sky-200 focus:ring-4 focus:border-sky-200
+    dark:placeholder-gray-200 dark:border-gray-700 dark:focus:border-sky-700 dark:focus:ring-sky-700;
+}
+
+    .input:not(.input-static){
+        @apply hover:border-gray-300
+        dark:hover:border-gray-600;
+    }
+
+    .input-xs{
+        @apply px-1.5 py-px text-xs rounded-sm;
+    }
+
+    .input-sm{
+        @apply px-2 py-1 text-sm rounded-sm;
+    }
+
+    .input-lg{
+        @apply px-4 py-3 text-lg;
+    }
+
+    .input-filled{
+        @apply bg-gray-100 border-transparent focus:bg-transparent
+        dark:bg-gray-700 dark:focus:bg-transparent;
+    }
+
+    .input-filled:not(.input-static){
+            @apply hover:bg-gray-200 hover:border-transparent
+            focus:hover:bg-transparent
+            dark:hover:bg-gray-600 dark:hover:border-transparent
+            dark:focus:hover:bg-transparent;
+        }
+
+    .input-flushed{
+        @apply rounded-none border-t-0 border-r-0 border-l-0 border-b box-border
+        focus:border-sky-200 focus:border-b-4 focus:ring-0 focus:hover:border-sky-200 focus:-mb-1;
+    }
+
+    .input-unstyled{
+        @apply border-none;
+    }

@@ -9,6 +9,8 @@ const tag = require("./jss/tag");
 const spinner = require("./jss/spinner");
 const kbd = require("./jss/kbd");
 const table = require("./jss/table");
+const input = require("./jss/input");
+const _switch = require("./jss/switch");
 
 module.exports = plugin(({ addComponents }) => {
   addComponents({
@@ -21,5 +23,7 @@ module.exports = plugin(({ addComponents }) => {
     ...spinner,
     ...kbd,
     ...table,
+    ...input,
+    ..._switch,
   });
 });
