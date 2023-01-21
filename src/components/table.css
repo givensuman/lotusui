@@ -41,4 +41,39 @@
             }
         }
     }
+
+    &-sm {
+        thead, tfoot {
+            th {
+                @apply py-2;
+            }
+        }
+
+        tbody > tr {
+            th, td {
+                @apply py-1;
+            }
+        }
+    }
+
+    &-lg {
+        thead, tfoot {
+            th {
+                @apply py-4;
+            }
+        }
+
+        tbody > tr {
+            th, td {
+                @apply py-6;
+            }
+        }
+    }
+
+    &-striped > tbody {
+        tr:nth-child(odd) {
+            @apply bg-gray-100
+            dark:bg-gray-700;
+        }
+    }
 }
