@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "docs",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -11,6 +11,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.9.0"
+    "@astrojs/react": "^1.2.2",
+    "@astrojs/tailwind": "^2.1.3",
+    "@nanostores/react": "^0.4.1",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^1.9.0",
+    "clsx": "^1.2.1",
+    "nanostores": "^0.7.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.7.1",
+    "tailwindcss": "^3.0.24"
   }
 }
