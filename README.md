@@ -28,7 +28,7 @@ Then add the plugin to your `tailwind.config.cjs` file:
 ```js
 module.exports = {
     plugins: [
-        require("lotusui)
+        require("lotusui")
     ]
 }
 ```

@@ -1,7 +1,7 @@
 .input {
     @apply w-full block px-3 py-2 border border-gray-200 rounded-md bg-transparent transition-colors
-    focus:outline-none focus:ring-sky-200 focus:ring-4 focus:border-sky-200
-    dark:placeholder-gray-200 dark:border-gray-700 dark:focus:border-sky-700 dark:focus:ring-sky-700;
+    focus:outline-none focus:ring-gray-400/75 focus:ring-4 focus:border-blue-500
+    dark:placeholder-gray-200 dark:border-gray-700 dark:focus:border-blue-300 dark:focus:ring-gray-400/75;
 
     &:not(&-static) {
         @apply hover:border-gray-300
@@ -21,12 +21,13 @@
     }
 
     &-filled {
-        @apply bg-gray-100 border-transparent focus:bg-transparent
+        @apply bg-gray-100 border-transparent focus:bg-transparent focus:border-transparent
         dark:bg-gray-700 dark:focus:bg-transparent;
 
         &:not(.input-static) {
             @apply hover:bg-gray-200 hover:border-transparent
             focus:hover:bg-transparent
+            focus:hover:border-transparent
             dark:hover:bg-gray-600 dark:hover:border-transparent
             dark:focus:hover:bg-transparent;
         }

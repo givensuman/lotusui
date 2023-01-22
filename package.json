@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "hello": "cat README.md",
-    "compile": "postcss src/components/*.css --dir build/css",
-    "transpile": "(cd build/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
-    "build": "(cp src/index.js build); && pnpm compile && pnpm transpile",
+    "compile": "postcss src/components/*.css --dir src/build/css",
+    "transpile": "(cd src/build/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
+    "writeIndex": "node scripts/writeIndex",
+    "build": "pnpm compile && pnpm transpile && pnpm writeIndex",
     "watch": "onchange \"src/**/*.{js,css}\" -- pnpm build",
     "demo": "(cd demo && pnpm dev);",
     "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
