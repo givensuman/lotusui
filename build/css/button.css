@@ -3,9 +3,9 @@
     width:fit-content;
     height:-moz-fit-content;
     height:fit-content;
-    @apply w-auto justify-center py-2 px-4 mr-2 mb-2 text-sm font-semibold text-lg text-black rounded-md transition-colors cursor-pointer bg-gray-100   
-    focus:z-10 focus:outline-none focus:ring-4 focus:ring-sky-200
-    dark:bg-gray-700 dark:text-inherit dark:focus:ring-sky-700;
+    @apply w-auto justify-center py-2 px-4 font-semibold text-lg rounded-md transition-colors cursor-pointer bg-gray-100   
+    focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-400/75
+    dark:bg-gray-700;
 }
 
     .btn:not(.btn-static){
@@ -44,8 +44,8 @@
 
     .btn-slate{
             @apply bg-slate-500 text-white 
-            focus:ring-slate-400
-            dark:bg-slate-500 dark:focus:ring-slate-400;
+            focus:ring-slate-400/75
+            dark:bg-slate-500;
         }
 
     .btn-slate:not(.btn-static){
@@ -75,8 +75,8 @@
 
     .btn-gray{
             @apply bg-gray-500 text-white 
-            focus:ring-gray-400
-            dark:bg-gray-500 dark:focus:ring-gray-400;
+            focus:ring-gray-400/75
+            dark:bg-gray-500;
         }
 
     .btn-gray:not(.btn-static){
@@ -106,8 +106,8 @@
 
     .btn-zinc{
             @apply bg-zinc-500 text-white 
-            focus:ring-zinc-400
-            dark:bg-zinc-500 dark:focus:ring-zinc-400;
+            focus:ring-zinc-400/75
+            dark:bg-zinc-500;
         }
 
     .btn-zinc:not(.btn-static){
@@ -137,8 +137,8 @@
 
     .btn-neutral{
             @apply bg-neutral-500 text-white 
-            focus:ring-neutral-400
-            dark:bg-neutral-500 dark:focus:ring-neutral-400;
+            focus:ring-neutral-400/75
+            dark:bg-neutral-500;
         }
 
     .btn-neutral:not(.btn-static){
@@ -168,8 +168,8 @@
 
     .btn-stone{
             @apply bg-stone-500 text-white 
-            focus:ring-stone-400
-            dark:bg-stone-500 dark:focus:ring-stone-400;
+            focus:ring-stone-400/75
+            dark:bg-stone-500;
         }
 
     .btn-stone:not(.btn-static){
@@ -199,8 +199,8 @@
 
     .btn-red{
             @apply bg-red-500 text-white 
-            focus:ring-red-400
-            dark:bg-red-500 dark:focus:ring-red-400;
+            focus:ring-red-400/75
+            dark:bg-red-500;
         }
 
     .btn-red:not(.btn-static){
@@ -230,8 +230,8 @@
 
     .btn-orange{
             @apply bg-orange-500 text-white 
-            focus:ring-orange-400
-            dark:bg-orange-500 dark:focus:ring-orange-400;
+            focus:ring-orange-400/75
+            dark:bg-orange-500;
         }
 
     .btn-orange:not(.btn-static){
@@ -261,8 +261,8 @@
 
     .btn-amber{
             @apply bg-amber-500 text-white 
-            focus:ring-amber-400
-            dark:bg-amber-500 dark:focus:ring-amber-400;
+            focus:ring-amber-400/75
+            dark:bg-amber-500;
         }
 
     .btn-amber:not(.btn-static){
@@ -292,8 +292,8 @@
 
     .btn-yellow{
             @apply bg-yellow-500 text-white 
-            focus:ring-yellow-400
-            dark:bg-yellow-500 dark:focus:ring-yellow-400;
+            focus:ring-yellow-400/75
+            dark:bg-yellow-500;
         }
 
     .btn-yellow:not(.btn-static){
@@ -323,8 +323,8 @@
 
     .btn-lime{
             @apply bg-lime-500 text-white 
-            focus:ring-lime-400
-            dark:bg-lime-500 dark:focus:ring-lime-400;
+            focus:ring-lime-400/75
+            dark:bg-lime-500;
         }
 
     .btn-lime:not(.btn-static){
@@ -354,8 +354,8 @@
 
     .btn-green{
             @apply bg-green-500 text-white 
-            focus:ring-green-400
-            dark:bg-green-500 dark:focus:ring-green-400;
+            focus:ring-green-400/75
+            dark:bg-green-500;
         }
 
     .btn-green:not(.btn-static){
@@ -385,8 +385,8 @@
 
     .btn-emerald{
             @apply bg-emerald-500 text-white 
-            focus:ring-emerald-400
-            dark:bg-emerald-500 dark:focus:ring-emerald-400;
+            focus:ring-emerald-400/75
+            dark:bg-emerald-500;
         }
 
     .btn-emerald:not(.btn-static){
@@ -416,8 +416,8 @@
 
     .btn-teal{
             @apply bg-teal-500 text-white 
-            focus:ring-teal-400
-            dark:bg-teal-500 dark:focus:ring-teal-400;
+            focus:ring-teal-400/75
+            dark:bg-teal-500;
         }
 
     .btn-teal:not(.btn-static){
@@ -447,8 +447,8 @@
 
     .btn-cyan{
             @apply bg-cyan-500 text-white 
-            focus:ring-cyan-400
-            dark:bg-cyan-500 dark:focus:ring-cyan-400;
+            focus:ring-cyan-400/75
+            dark:bg-cyan-500;
         }
 
     .btn-cyan:not(.btn-static){
@@ -478,8 +478,8 @@
 
     .btn-sky{
             @apply bg-sky-500 text-white 
-            focus:ring-sky-400
-            dark:bg-sky-500 dark:focus:ring-sky-400;
+            focus:ring-sky-400/75
+            dark:bg-sky-500;
         }
 
     .btn-sky:not(.btn-static){
@@ -509,8 +509,8 @@
 
     .btn-blue{
             @apply bg-blue-500 text-white 
-            focus:ring-blue-400
-            dark:bg-blue-500 dark:focus:ring-blue-400;
+            focus:ring-blue-400/75
+            dark:bg-blue-500;
         }
 
     .btn-blue:not(.btn-static){
@@ -540,8 +540,8 @@
 
     .btn-indigo{
             @apply bg-indigo-500 text-white 
-            focus:ring-indigo-400
-            dark:bg-indigo-500 dark:focus:ring-indigo-400;
+            focus:ring-indigo-400/75
+            dark:bg-indigo-500;
         }
 
     .btn-indigo:not(.btn-static){
@@ -571,8 +571,8 @@
 
     .btn-violet{
             @apply bg-violet-500 text-white 
-            focus:ring-violet-400
-            dark:bg-violet-500 dark:focus:ring-violet-400;
+            focus:ring-violet-400/75
+            dark:bg-violet-500;
         }
 
     .btn-violet:not(.btn-static){
@@ -602,8 +602,8 @@
 
     .btn-purple{
             @apply bg-purple-500 text-white 
-            focus:ring-purple-400
-            dark:bg-purple-500 dark:focus:ring-purple-400;
+            focus:ring-purple-400/75
+            dark:bg-purple-500;
         }
 
     .btn-purple:not(.btn-static){
@@ -633,8 +633,8 @@
 
     .btn-fuchsia{
             @apply bg-fuchsia-500 text-white 
-            focus:ring-fuchsia-400
-            dark:bg-fuchsia-500 dark:focus:ring-fuchsia-400;
+            focus:ring-fuchsia-400/75
+            dark:bg-fuchsia-500;
         }
 
     .btn-fuchsia:not(.btn-static){
@@ -664,8 +664,8 @@
 
     .btn-pink{
             @apply bg-pink-500 text-white 
-            focus:ring-pink-400
-            dark:bg-pink-500 dark:focus:ring-pink-400;
+            focus:ring-pink-400/75
+            dark:bg-pink-500;
         }
 
     .btn-pink:not(.btn-static){
@@ -695,8 +695,8 @@
 
     .btn-rose{
             @apply bg-rose-500 text-white 
-            focus:ring-rose-400
-            dark:bg-rose-500 dark:focus:ring-rose-400;
+            focus:ring-rose-400/75
+            dark:bg-rose-500;
         }
 
     .btn-rose:not(.btn-static){

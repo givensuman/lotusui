@@ -3,7 +3,8 @@ const Switch = () => {
         <div className="flex">
             <input
                 type="checkbox"
-                className="switch"
+                className="switch switch-sm"
+                disabled
             />
                         <input
                 type="checkbox"
@@ -11,7 +12,7 @@ const Switch = () => {
             />
                         <input
                 type="checkbox"
-                className="switch switch-yellow"
+                className="switch switch-yellow switch-lg"
             />
                         <input
                 type="checkbox"
