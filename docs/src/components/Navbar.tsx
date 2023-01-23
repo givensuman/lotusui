@@ -1,6 +1,5 @@
 import type { FC, HTMLAttributes } from "react"
-import { useStore } from "@nanostores/react"
-import { isDarkMode } from "../store"
+import { useStore, isDarkMode } from "../store"
 import { HiSun, HiMoon } from "react-icons/hi"
 import { FaGithub } from "react-icons/fa"
 

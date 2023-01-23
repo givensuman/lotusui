@@ -1,8 +1,7 @@
 import { useEffect } from "react"
 import type { FC, HTMLAttributes } from "react"
 import clsx from "clsx"
-import { useStore } from "@nanostores/react"
-import { isDarkMode } from "../store"
+import { useStore, isDarkMode } from "../store"
 
 const Wrapper: FC<HTMLAttributes<HTMLDivElement>> = (props) => {
 
@@ -28,7 +27,7 @@ const Wrapper: FC<HTMLAttributes<HTMLDivElement>> = (props) => {
             "dark": $isDarkMode
         })}>
             <div
-                className="app relative"
+                className="app relative overflow-hidden"
                 {...props}
             >
                 {props.children}

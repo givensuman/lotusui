@@ -1,0 +1,11 @@
+---
+import Wrapper from "../components/Wrapper";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+---
+
+<Wrapper client:load>
+  <Navbar client:load />
+  <Sidebar client:load />
+  <slot />
+</Wrapper>
