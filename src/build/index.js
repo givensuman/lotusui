@@ -6,6 +6,7 @@ const card = require("./jss/card.js");
 const divider = require("./jss/divider.js");
 const input = require("./jss/input.js");
 const kbd = require("./jss/kbd.js");
+const radio = require("./jss/radio.js");
 const spinner = require("./jss/spinner.js");
 const _switch = require("./jss/switch.js");
 const table = require("./jss/table.js");
@@ -18,6 +19,7 @@ const tag = require("./jss/tag.js");
 ...divider,
 ...input,
 ...kbd,
+...radio,
 ...spinner,
 ..._switch,
 ...table,

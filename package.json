@@ -9,8 +9,8 @@
     "transpile": "(cd src/build/css && prejss-cli *.css --out-dir ../jss --format commonjs);",
     "writeIndex": "node scripts/writeIndex",
     "build": "pnpm compile && pnpm transpile && pnpm writeIndex",
-    "watch": "onchange \"src/**/*.{js,css}\" -- pnpm build",
-    "demo": "(cd demo && pnpm dev);",
+    "watch": "onchange \"src/components/*.css\" -- pnpm build",
+    "demo": "(cd fixtures && pnpm start);",
     "demo:watch": "concurrently \"pnpm watch\" \"pnpm demo\" -n build🤖,demo🎨 -c magenta,cyan"
   },
   "keywords": [],
