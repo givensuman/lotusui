@@ -1,4 +1,4 @@
-const Radio = () => {
+export default function Radio() {
     return (
         <div className="flex flex-col space-y-4">
             <div>
@@ -47,5 +47,3 @@ const Radio = () => {
         </div>
     )
 }
-
-export default Radio
