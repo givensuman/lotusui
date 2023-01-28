@@ -1,72 +1,76 @@
 .badge{
     height:-moz-fit-content;
     height:fit-content;
+    min-width:-moz-fit-content;
+    min-width:fit-content;
+
     @apply bg-gray-100 uppercase font-black font-mono text-sm px-1.5 py-0 rounded-sm inline-flex items-center
+
     dark:text-black;
 }
-    .badge-slate{
+    .badge.is-slate{
             @apply bg-slate-200 text-slate-800;
         }
-    .badge-gray{
+    .badge.is-gray{
             @apply bg-gray-200 text-gray-800;
         }
-    .badge-zinc{
+    .badge.is-zinc{
             @apply bg-zinc-200 text-zinc-800;
         }
-    .badge-neutral{
+    .badge.is-neutral{
             @apply bg-neutral-200 text-neutral-800;
         }
-    .badge-stone{
+    .badge.is-stone{
             @apply bg-stone-200 text-stone-800;
         }
-    .badge-red{
+    .badge.is-red{
             @apply bg-red-200 text-red-800;
         }
-    .badge-orange{
+    .badge.is-orange{
             @apply bg-orange-200 text-orange-800;
         }
-    .badge-amber{
+    .badge.is-amber{
             @apply bg-amber-200 text-amber-800;
         }
-    .badge-yellow{
+    .badge.is-yellow{
             @apply bg-yellow-200 text-yellow-800;
         }
-    .badge-lime{
+    .badge.is-lime{
             @apply bg-lime-200 text-lime-800;
         }
-    .badge-green{
+    .badge.is-green{
             @apply bg-green-200 text-green-800;
         }
-    .badge-emerald{
+    .badge.is-emerald{
             @apply bg-emerald-200 text-emerald-800;
         }
-    .badge-teal{
+    .badge.is-teal{
             @apply bg-teal-200 text-teal-800;
         }
-    .badge-cyan{
+    .badge.is-cyan{
             @apply bg-cyan-200 text-cyan-800;
         }
-    .badge-sky{
+    .badge.is-sky{
             @apply bg-sky-200 text-sky-800;
         }
-    .badge-blue{
+    .badge.is-blue{
             @apply bg-blue-200 text-blue-800;
         }
-    .badge-indigo{
+    .badge.is-indigo{
             @apply bg-indigo-200 text-indigo-800;
         }
-    .badge-violet{
+    .badge.is-violet{
             @apply bg-violet-200 text-violet-800;
         }
-    .badge-purple{
+    .badge.is-purple{
             @apply bg-purple-200 text-purple-800;
         }
-    .badge-fuchsia{
+    .badge.is-fuchsia{
             @apply bg-fuchsia-200 text-fuchsia-800;
         }
-    .badge-pink{
+    .badge.is-pink{
             @apply bg-pink-200 text-pink-800;
         }
-    .badge-rose{
+    .badge.is-rose{
             @apply bg-rose-200 text-rose-800;
         }

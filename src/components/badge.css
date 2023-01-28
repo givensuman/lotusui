@@ -1,11 +1,16 @@
 .badge {
     height: fit-content;
+    min-width: fit-content;
+
     @apply bg-gray-100 uppercase font-black font-mono text-sm px-1.5 py-0 rounded-sm inline-flex items-center
-    dark:text-black;
+
+    dark:text-black
+    ;
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
-    &-$(color) {
-            @apply bg-$(color)-200 text-$(color)-800;
+    &.is-$(color) {
+            @apply bg-$(color)-200 text-$(color)-800
+            ;
         }
     }
 }
