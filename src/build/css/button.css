@@ -4,7 +4,7 @@
     height:-moz-fit-content;
     height:fit-content;
     
-    @apply w-auto justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
+    @apply justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
     dark:bg-gray-700;
 }
@@ -17,14 +17,15 @@
         dark:hover:bg-gray-600;
     }
 
-    .btn-xs{
+    .btn.is-xs, .btn.is-extrasmall{
         @apply text-sm py-0.5 px-1;
     }
 
-    .btn-sm{
-        @apply text-base py-1 px-2}
+    .btn.is-sm, .btn.is-small{
+        @apply text-base py-1 px-2;
+    }
 
-    .btn-lg{
+    .btn.is-lg, .btn.is-large{
         @apply text-2xl py-2.5 px-5;
     }
 

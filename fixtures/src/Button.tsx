@@ -5,70 +5,118 @@ export default function Button() {
         <div className="flex flex-col space-y-4">
             <div className="flex">
                 <button className="btn">Default</button>
-                <button className="btn btn-ghost">Ghost</button>
-                <button className="btn btn-outline">Outline</button>
+                <button className="btn is-ghost">Ghost</button>
+                <button className="btn is-outline">Outline</button>
             </div>
             <h1>Static</h1>
             <div className="flex">
-            <button className="btn btn-static">Static</button>
-            <button className="btn btn-ghost btn-static">Static</button>
-            <button className="btn btn-outline btn-static">Static</button>
+            <button className="btn is-static">Static</button>
+            <button className="btn is-ghost is-static">Static</button>
+            <button className="btn is-outline is-static">Static</button>
             </div>
             <h1>
             Button Group
             </h1>
             <div className="btn-group">
-            <button className="btn btn-sky">Click</button>
-            <button className="btn btn-pink">Stuff</button>
-            <button className="btn btn-amber">Here</button>
+            <button className="btn is-sky">Click</button>
+            <button className="btn is-pink">Stuff</button>
+            <button className="btn is-amber">Here</button>
             </div>
             <h1>Icon Button</h1>
             <div>
-            <button className="btn btn-icon">
+            <button className="icon-btn">
                 <FaAddressBook />
             </button>
-            <button className="btn btn-icon btn-ghost">
+            <button className="icon-btn is-ghost">
                 <FaDatabase />
             </button>
-            <button className="btn btn-icon btn-outline">
+            <button className="icon-btn is-outline">
                 <FaHandHolding />
             </button>
             </div>
             <h1>Size Variants</h1>
-            <div className="flex">
-            <button className="btn btn-xs">.btn-xs</button>
-            <button className="btn btn-sm">.btn-sm</button>
+            <div className="flex space-x-4">
+            <button className="btn is-xs">.is-xs</button>
+            <button className="btn is-small">.is-sm</button>
             <button className="btn">Default</button>
-            <button className="btn btn-lg">.btn-lg</button>
+            <button className="btn is-lg">.is-lg</button>
             </div>
             <h1>Color Variants</h1>
             <div className="flex flex-wrap">
-            <button className="btn btn-slate">Slate</button>
-            <button className="btn btn-gray btn-outline">Gray</button>
-            <button className="btn btn-zinc btn-outline">Zinc</button>
-            <button className="btn btn-neutral btn-ghost">Neutral</button>
-            <button className="btn btn-stone btn-ghost">Stone</button>
-            <button className="btn btn-red">Red</button>
-            <button className="btn btn-orange btn-ghost">Orange</button>
-            <button className="btn btn-amber btn-ghost">Amber</button>
-            <button className="btn btn-yellow btn-ghost">Yellow</button>
-            <button className="btn btn-lime btn-ghost">Lime</button>
-            <button className="btn btn-green btn-ghost">Green</button>
-            <button className="btn btn-emerald btn-ghost">Emerald</button>
-            <button className="btn btn-teal btn-outline">Teal</button>
-            <button className="btn btn-cyan btn-outline">Cyan</button>
-            <button className="btn btn-sky btn-outline">Sky</button>
-            <button className="btn btn-blue btn-outline">Blue</button>
-            <button className="btn btn-indigo">Indigo</button>
-            <button className="btn btn-violet">Violet</button>
-            <button className="btn btn-purple">Purple</button>
-            <button className="btn btn-fuchsia">Fuchsia</button>
-            <button className="btn btn-pink">Pink</button>
-            <button className="btn btn-rose">Rose</button>
+                <button className="btn is-slate">Slate</button>
+                <button className="btn is-gray">Gray</button>
+                <button className="btn is-zinc">Zinc</button>
+                <button className="btn is-neutral">Neutral</button>
+                <button className="btn is-stone">Stone</button>
+                <button className="btn is-red">Red</button>
+                <button className="btn is-orange">Orange</button>
+                <button className="btn is-amber">Amber</button>
+                <button className="btn is-yellow">Yellow</button>
+                <button className="btn is-lime">Lime</button>
+                <button className="btn is-green">Green</button>
+                <button className="btn is-emerald">Emerald</button>
+                <button className="btn is-teal">Teal</button>
+                <button className="btn is-cyan">Cyan</button>
+                <button className="btn is-sky">Sky</button>
+                <button className="btn is-blue">Blue</button>
+                <button className="btn is-indigo">Indigo</button>
+                <button className="btn is-violet">Violet</button>
+                <button className="btn is-purple">Purple</button>
+                <button className="btn is-fuchsia">Fuchsia</button>
+                <button className="btn is-pink">Pink</button>
+                <button className="btn is-rose">Rose</button>
+            </div>
+            <div>
+                <button className="btn is-outline is-slate">Slate</button>
+                <button className="btn is-outline is-gray">Gray</button>
+                <button className="btn is-outline is-zinc">Zinc</button>
+                <button className="btn is-outline is-neutral">Neutral</button>
+                <button className="btn is-outline is-stone">Stone</button>
+                <button className="btn is-outline is-red">Red</button>
+                <button className="btn is-outline is-orange">Orange</button>
+                <button className="btn is-outline is-amber">Amber</button>
+                <button className="btn is-outline is-yellow">Yellow</button>
+                <button className="btn is-outline is-lime">Lime</button>
+                <button className="btn is-outline is-green">Green</button>
+                <button className="btn is-outline is-emerald">Emerald</button>
+                <button className="btn is-outline is-teal">Teal</button>
+                <button className="btn is-outline is-cyan">Cyan</button>
+                <button className="btn is-outline is-sky">Sky</button>
+                <button className="btn is-outline is-blue">Blue</button>
+                <button className="btn is-outline is-indigo">Indigo</button>
+                <button className="btn is-outline is-violet">Violet</button>
+                <button className="btn is-outline is-purple">Purple</button>
+                <button className="btn is-outline is-fuchsia">Fuchsia</button>
+                <button className="btn is-outline btnis-pink">Pink</button>
+                <button className="btn is-outline is-rose">Rose</button>
+            </div>
+            <div>
+                <button className="btn is-ghost is-slate">Slate</button>
+                <button className="btn is-ghost is-gray">Gray</button>
+                <button className="btn is-ghost is-zinc">Zinc</button>
+                <button className="btn is-ghost is-neutral">Neutral</button>
+                <button className="btn is-ghost is-stone">Stone</button>
+                <button className="btn is-ghost is-red">Red</button>
+                <button className="btn is-ghost is-orange">Orange</button>
+                <button className="btn is-ghost is-amber">Amber</button>
+                <button className="btn is-ghost is-yellow">Yellow</button>
+                <button className="btn is-ghost is-lime">Lime</button>
+                <button className="btn is-ghost is-green">Green</button>
+                <button className="btn is-ghost is-emerald">Emerald</button>
+                <button className="btn is-ghost is-teal">Teal</button>
+                <button className="btn is-ghost is-cyan">Cyan</button>
+                <button className="btn is-ghost is-sky">Sky</button>
+                <button className="btn is-ghost is-blue">Blue</button>
+                <button className="btn is-ghost is-indigo">Indigo</button>
+                <button className="btn is-ghost is-violet">Violet</button>
+                <button className="btn is-ghost is-purple">Purple</button>
+                <button className="btn is-ghost is-fuchsia">Fuchsia</button>
+                <button className="btn is-ghost is-pink">Pink</button>
+                <button className="btn is-ghost is-rose">Rose</button>
             </div>
             <h1>Kitchen Sink</h1>
             <div className="flex">
-            <button className="btn btn-static bg-[#385398] text-white">Facebook</button>
+            <button className="btn is-static bg-[#385398] text-white">Facebook</button>
             </div>
         </div>
     )

@@ -19,14 +19,14 @@
         ;
     }
 
-    &.is-small {
+    &.is-sm, &.is-small {
         @apply w-3 h-3
 
         checked:before:h-1 checked:before:w-1
         ;
     }
 
-    &.is-large {
+    &.is-lg, &.is-large {
         @apply w-5 h-5
 
         checked:before:h-2 checked:before:w-2
@@ -44,7 +44,7 @@
                 @apply focus:ring-$(color)-400/75
                 
                 checked:hover:bg-$(color)-600
-                
+
                 dark:checked:hover:bg-$(color)-400
                 ;
             }

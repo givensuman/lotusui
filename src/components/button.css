@@ -2,7 +2,7 @@
     width: fit-content;
     height: fit-content;
     
-    @apply w-auto justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
+    @apply justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
     dark:bg-gray-700
     ;
@@ -18,15 +18,15 @@
  
     /* Size Variants */
 
-    &-xs {
+    &.is-xs, &.is-extrasmall {
         @apply text-sm py-0.5 px-1;
     }
 
-    &-sm {
-        @apply text-base py-1 px-2
+    &.is-sm, &.is-small {
+        @apply text-base py-1 px-2;
     }
 
-    &-lg {
+    &.is-lg, &.is-large {
         @apply text-2xl py-2.5 px-5;
     }
 
