@@ -2,15 +2,44 @@
     height: fit-content;
     min-width: fit-content;
 
-    @apply bg-gray-100 uppercase font-black font-mono text-sm px-1.5 py-0 rounded-sm inline-flex items-center
+    @apply bg-gray-100 uppercase font-bold text-sm text-gray-800 px-1 py-0 rounded-sm inline-flex items-center
 
-    dark:text-black
+    dark:bg-gray-600/75 dark:text-gray-200
     ;
+
+    /* Style Variants */
+
+    &.is-outline {
+        @apply bg-transparent border border-gray-600 text-gray-600
+
+        dark:text-gray-300 dark:border-gray-300
+        ;
+    }
+
+    &.is-solid {
+        @apply bg-gray-500 text-gray-100
+        ;
+    }
+
+    /* Color Variants */
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
     &.is-$(color) {
             @apply bg-$(color)-200 text-$(color)-800
+
+            dark:bg-$(color)-500/25 dark:text-$(color)-200
             ;
+
+            &.is-outline {
+                @apply bg-transparent border-$(color)-600 text-$(color)-600
+
+                dark:text-$(color)-300 dark:border-$(color)-300
+                ;
+            }
+
+            &.is-solid {
+                @apply bg-$(color)-600 text-$(color)-100;
+            }
         }
     }
 }

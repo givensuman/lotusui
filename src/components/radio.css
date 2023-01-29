@@ -1,43 +1,51 @@
 .radio {
     @apply w-4 h-4 cursor-pointer bg-transparent appearance-none border rounded-full border-2 border-gray-300 cursor-pointer flex items-center justify-center
     
-    dark:border-gray-600 dark:checked:bg-blue-300 dark:checked:hover:bg-blue-400 dark:checked:before:bg-black
+    dark:border-gray-600 dark:checked:bg-blue-300  dark:checked:before:bg-black
 
     checked:border-none checked:flex checked:bg-blue-500
-
-    checked:hover:bg-blue-600
 
     checked:before:inline-block checked:before:rounded-full checked:before:bg-white checked:before:h-1.5 checked:before:w-1.5
 
     disabled:cursor-not-allowed
     ;
 
-    &:not(.is-basic) {
+    &:not(.is-static) {
         @apply focus:outline-none focus:ring-4       focus:ring-blue-400/75
+
+        checked:hover:bg-blue-600
+
+        dark:checked:hover:bg-blue-400
         ;
     }
 
-    &-sm {
+    &.is-small {
         @apply w-3 h-3
+
         checked:before:h-1 checked:before:w-1
         ;
     }
 
-    &-lg {
+    &.is-large {
         @apply w-5 h-5
-        checked:before:h-2 checked:before:w-2;
+
+        checked:before:h-2 checked:before:w-2
+        ;
     }
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
         &-$(color) {
-            @apply checked:bg-$(color)-500 checked:hover:bg-$(color)-600
+            @apply checked:bg-$(color)-500 
             
             dark:checked:bg-$(color)-300
-            dark:checked:hover:bg-$(color)-400
             ;
 
-            &:not(.is-basic) {
+            &:not(.is-static) {
                 @apply focus:ring-$(color)-400/75
+                
+                checked:hover:bg-$(color)-600
+                
+                dark:checked:hover:bg-$(color)-400
                 ;
             }
         }

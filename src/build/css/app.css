@@ -1,5 +1,5 @@
 .app{
     @apply min-h-screen min-w-full bg-white text-black
-    
+
     dark:bg-gray-800 dark:text-white;
 }

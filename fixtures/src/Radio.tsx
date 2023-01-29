@@ -6,6 +6,10 @@ export default function Radio() {
                 <input type="radio" className="radio" />
             </div>
             <div>
+                <h1>Static</h1>
+                <input type="radio" className="radio is-static" />
+            </div>
+            <div>
                 <h1>Color Variants</h1>
                 <div className="flex space-x-2">
                     <input type="radio" className="radio radio-slate" />

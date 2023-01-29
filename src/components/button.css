@@ -1,16 +1,22 @@
 .btn {
     width: fit-content;
     height: fit-content;
-    @apply w-auto justify-center py-2 px-4 font-semibold text-lg rounded-md transition-colors cursor-pointer bg-gray-100   
-    focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-400/75
-    dark:bg-gray-700;
+    
+    @apply w-auto justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
-    /* Size Variants */
+    dark:bg-gray-700
+    ;
 
-    &:not(&-static) {
-        @apply hover:bg-gray-200
-        dark:hover:bg-gray-600;
+    &:not(.is-static) {
+        @apply hover:transition-colors hover:bg-gray-200
+
+        focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-400/75
+
+        dark:hover:bg-gray-600
+        ;
     }
+ 
+    /* Size Variants */
 
     &-xs {
         @apply text-sm py-0.5 px-1;
@@ -26,67 +32,85 @@
 
     /* Style Variants */
     
-    &-ghost {
+    &.is-ghost {
         @apply bg-transparent 
-        dark:bg-transparent dark:text-inherit;
+
+        dark:bg-transparent dark:text-inherit
+        ;
     }
-    &-ghost:not(.btn-static) {
+    &.is-ghost:not(.is-static) {
         @apply hover:bg-gray-200/50;
     }
 
-    &-outline {
+    &.is-outline {
         @apply bg-transparent border-2 border-gray-200
-        dark:bg-transparent dark:text-inherit dark:border-gray-700;
+
+        dark:bg-transparent dark:text-inherit dark:border-gray-700
+        ;
     }
-    &-outline:not(.btn-static) {    
-        @apply hover:bg-gray-200/50;
+    &.is-outline:not(.is-static) {    
+        @apply hover:bg-gray-200/50
+        ;
     }
 
     /* Color Variants */
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
 
-        &-$(color) {
+        &.is-$(color) {
             @apply bg-$(color)-500 text-white 
-            focus:ring-$(color)-400/75
-            dark:bg-$(color)-500;
+            
+            dark:bg-$(color)-500
+            ;
         }
 
-        &-$(color):not(.btn-static) {
+        &.is-$(color):not(.is-static) {
             @apply hover:bg-$(color)-600
-            dark:hover:bg-$(color)-600;
+
+            focus:ring-$(color)-400/75
+
+            dark:hover:bg-$(color)-600
+            ;
         }
 
-        &-$(color).btn-ghost {
+        &.is-$(color).is-ghost {
             @apply bg-transparent text-$(color)-700 
-            dark:text-$(color)-300;
+
+            dark:text-$(color)-300
+            ;
         }
-        &-$(color).btn-ghost:not(.btn-static) {      
+        &.is-$(color).is-ghost:not(.is-static) {      
             @apply hover:bg-$(color)-200/50
-            dark:hover:bg-$(color)-200/25;
+
+            dark:hover:bg-$(color)-200/25
+            ;
         }
         
         
-        &-$(color).btn-outline {
+        &.is-$(color).is-outline {
             @apply bg-transparent text-$(color)-700 border-2 border-$(color)-500 text-$(color)-700
-            dark:text-$(color)-300;
+
+            dark:text-$(color)-300
+            ;
         }
 
-        &-$(color).btn-outline:not(.btn-static) {
+        &.is-$(color).is-outline:not(.is-static) {
             @apply hover:bg-$(color)-200/50
-            dark:hover:bg-$(color)-200/25;
+
+            dark:hover:bg-$(color)-200/25
+            ;
         }
     }
 }
 
-.btn-icon {
-    @apply py-2 px-2;
+.icon-btn {
+    @apply btn py-2 px-2;
 }
 
 .btn-group {
     @apply inline-flex items-center space-x-0;
 
-    .btn {
+    .btn, .icon-btn {
         @apply rounded-none;
 
         &:first-child {
