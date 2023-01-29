@@ -34,7 +34,7 @@
     }
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
-        &-$(color) {
+        &.is-$(color) {
             @apply checked:bg-$(color)-500 
             
             dark:checked:bg-$(color)-300

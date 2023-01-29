@@ -30,13 +30,13 @@
         checked:before:h-2 checked:before:w-2;
     }
 
-    .radio-slate{
+    .radio.is-slate{
             @apply checked:bg-slate-500 
             
             dark:checked:bg-slate-300;
         }
 
-    .radio-slate:not(.is-static){
+    .radio.is-slate:not(.is-static){
                 @apply focus:ring-slate-400/75
                 
                 checked:hover:bg-slate-600
@@ -44,13 +44,13 @@
                 dark:checked:hover:bg-slate-400;
             }
 
-    .radio-gray{
+    .radio.is-gray{
             @apply checked:bg-gray-500 
             
             dark:checked:bg-gray-300;
         }
 
-    .radio-gray:not(.is-static){
+    .radio.is-gray:not(.is-static){
                 @apply focus:ring-gray-400/75
                 
                 checked:hover:bg-gray-600
@@ -58,13 +58,13 @@
                 dark:checked:hover:bg-gray-400;
             }
 
-    .radio-zinc{
+    .radio.is-zinc{
             @apply checked:bg-zinc-500 
             
             dark:checked:bg-zinc-300;
         }
 
-    .radio-zinc:not(.is-static){
+    .radio.is-zinc:not(.is-static){
                 @apply focus:ring-zinc-400/75
                 
                 checked:hover:bg-zinc-600
@@ -72,13 +72,13 @@
                 dark:checked:hover:bg-zinc-400;
             }
 
-    .radio-neutral{
+    .radio.is-neutral{
             @apply checked:bg-neutral-500 
             
             dark:checked:bg-neutral-300;
         }
 
-    .radio-neutral:not(.is-static){
+    .radio.is-neutral:not(.is-static){
                 @apply focus:ring-neutral-400/75
                 
                 checked:hover:bg-neutral-600
@@ -86,13 +86,13 @@
                 dark:checked:hover:bg-neutral-400;
             }
 
-    .radio-stone{
+    .radio.is-stone{
             @apply checked:bg-stone-500 
             
             dark:checked:bg-stone-300;
         }
 
-    .radio-stone:not(.is-static){
+    .radio.is-stone:not(.is-static){
                 @apply focus:ring-stone-400/75
                 
                 checked:hover:bg-stone-600
@@ -100,13 +100,13 @@
                 dark:checked:hover:bg-stone-400;
             }
 
-    .radio-red{
+    .radio.is-red{
             @apply checked:bg-red-500 
             
             dark:checked:bg-red-300;
         }
 
-    .radio-red:not(.is-static){
+    .radio.is-red:not(.is-static){
                 @apply focus:ring-red-400/75
                 
                 checked:hover:bg-red-600
@@ -114,13 +114,13 @@
                 dark:checked:hover:bg-red-400;
             }
 
-    .radio-orange{
+    .radio.is-orange{
             @apply checked:bg-orange-500 
             
             dark:checked:bg-orange-300;
         }
 
-    .radio-orange:not(.is-static){
+    .radio.is-orange:not(.is-static){
                 @apply focus:ring-orange-400/75
                 
                 checked:hover:bg-orange-600
@@ -128,13 +128,13 @@
                 dark:checked:hover:bg-orange-400;
             }
 
-    .radio-amber{
+    .radio.is-amber{
             @apply checked:bg-amber-500 
             
             dark:checked:bg-amber-300;
         }
 
-    .radio-amber:not(.is-static){
+    .radio.is-amber:not(.is-static){
                 @apply focus:ring-amber-400/75
                 
                 checked:hover:bg-amber-600
@@ -142,13 +142,13 @@
                 dark:checked:hover:bg-amber-400;
             }
 
-    .radio-yellow{
+    .radio.is-yellow{
             @apply checked:bg-yellow-500 
             
             dark:checked:bg-yellow-300;
         }
 
-    .radio-yellow:not(.is-static){
+    .radio.is-yellow:not(.is-static){
                 @apply focus:ring-yellow-400/75
                 
                 checked:hover:bg-yellow-600
@@ -156,13 +156,13 @@
                 dark:checked:hover:bg-yellow-400;
             }
 
-    .radio-lime{
+    .radio.is-lime{
             @apply checked:bg-lime-500 
             
             dark:checked:bg-lime-300;
         }
 
-    .radio-lime:not(.is-static){
+    .radio.is-lime:not(.is-static){
                 @apply focus:ring-lime-400/75
                 
                 checked:hover:bg-lime-600
@@ -170,13 +170,13 @@
                 dark:checked:hover:bg-lime-400;
             }
 
-    .radio-green{
+    .radio.is-green{
             @apply checked:bg-green-500 
             
             dark:checked:bg-green-300;
         }
 
-    .radio-green:not(.is-static){
+    .radio.is-green:not(.is-static){
                 @apply focus:ring-green-400/75
                 
                 checked:hover:bg-green-600
@@ -184,13 +184,13 @@
                 dark:checked:hover:bg-green-400;
             }
 
-    .radio-emerald{
+    .radio.is-emerald{
             @apply checked:bg-emerald-500 
             
             dark:checked:bg-emerald-300;
         }
 
-    .radio-emerald:not(.is-static){
+    .radio.is-emerald:not(.is-static){
                 @apply focus:ring-emerald-400/75
                 
                 checked:hover:bg-emerald-600
@@ -198,13 +198,13 @@
                 dark:checked:hover:bg-emerald-400;
             }
 
-    .radio-teal{
+    .radio.is-teal{
             @apply checked:bg-teal-500 
             
             dark:checked:bg-teal-300;
         }
 
-    .radio-teal:not(.is-static){
+    .radio.is-teal:not(.is-static){
                 @apply focus:ring-teal-400/75
                 
                 checked:hover:bg-teal-600
@@ -212,13 +212,13 @@
                 dark:checked:hover:bg-teal-400;
             }
 
-    .radio-cyan{
+    .radio.is-cyan{
             @apply checked:bg-cyan-500 
             
             dark:checked:bg-cyan-300;
         }
 
-    .radio-cyan:not(.is-static){
+    .radio.is-cyan:not(.is-static){
                 @apply focus:ring-cyan-400/75
                 
                 checked:hover:bg-cyan-600
@@ -226,13 +226,13 @@
                 dark:checked:hover:bg-cyan-400;
             }
 
-    .radio-sky{
+    .radio.is-sky{
             @apply checked:bg-sky-500 
             
             dark:checked:bg-sky-300;
         }
 
-    .radio-sky:not(.is-static){
+    .radio.is-sky:not(.is-static){
                 @apply focus:ring-sky-400/75
                 
                 checked:hover:bg-sky-600
@@ -240,13 +240,13 @@
                 dark:checked:hover:bg-sky-400;
             }
 
-    .radio-blue{
+    .radio.is-blue{
             @apply checked:bg-blue-500 
             
             dark:checked:bg-blue-300;
         }
 
-    .radio-blue:not(.is-static){
+    .radio.is-blue:not(.is-static){
                 @apply focus:ring-blue-400/75
                 
                 checked:hover:bg-blue-600
@@ -254,13 +254,13 @@
                 dark:checked:hover:bg-blue-400;
             }
 
-    .radio-indigo{
+    .radio.is-indigo{
             @apply checked:bg-indigo-500 
             
             dark:checked:bg-indigo-300;
         }
 
-    .radio-indigo:not(.is-static){
+    .radio.is-indigo:not(.is-static){
                 @apply focus:ring-indigo-400/75
                 
                 checked:hover:bg-indigo-600
@@ -268,13 +268,13 @@
                 dark:checked:hover:bg-indigo-400;
             }
 
-    .radio-violet{
+    .radio.is-violet{
             @apply checked:bg-violet-500 
             
             dark:checked:bg-violet-300;
         }
 
-    .radio-violet:not(.is-static){
+    .radio.is-violet:not(.is-static){
                 @apply focus:ring-violet-400/75
                 
                 checked:hover:bg-violet-600
@@ -282,13 +282,13 @@
                 dark:checked:hover:bg-violet-400;
             }
 
-    .radio-purple{
+    .radio.is-purple{
             @apply checked:bg-purple-500 
             
             dark:checked:bg-purple-300;
         }
 
-    .radio-purple:not(.is-static){
+    .radio.is-purple:not(.is-static){
                 @apply focus:ring-purple-400/75
                 
                 checked:hover:bg-purple-600
@@ -296,13 +296,13 @@
                 dark:checked:hover:bg-purple-400;
             }
 
-    .radio-fuchsia{
+    .radio.is-fuchsia{
             @apply checked:bg-fuchsia-500 
             
             dark:checked:bg-fuchsia-300;
         }
 
-    .radio-fuchsia:not(.is-static){
+    .radio.is-fuchsia:not(.is-static){
                 @apply focus:ring-fuchsia-400/75
                 
                 checked:hover:bg-fuchsia-600
@@ -310,13 +310,13 @@
                 dark:checked:hover:bg-fuchsia-400;
             }
 
-    .radio-pink{
+    .radio.is-pink{
             @apply checked:bg-pink-500 
             
             dark:checked:bg-pink-300;
         }
 
-    .radio-pink:not(.is-static){
+    .radio.is-pink:not(.is-static){
                 @apply focus:ring-pink-400/75
                 
                 checked:hover:bg-pink-600
@@ -324,13 +324,13 @@
                 dark:checked:hover:bg-pink-400;
             }
 
-    .radio-rose{
+    .radio.is-rose{
             @apply checked:bg-rose-500 
             
             dark:checked:bg-rose-300;
         }
 
-    .radio-rose:not(.is-static){
+    .radio.is-rose:not(.is-static){
                 @apply focus:ring-rose-400/75
                 
                 checked:hover:bg-rose-600
