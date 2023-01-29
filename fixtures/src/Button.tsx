@@ -8,6 +8,8 @@ export default function Button() {
                 <button className="btn is-ghost">Ghost</button>
                 <button className="btn is-outline">Outline</button>
             </div>
+            <h1>.is-loading</h1>
+            <button className="btn is-loading">Loading</button>
             <h1>Static</h1>
             <div className="flex">
             <button className="btn is-static">Static</button>

@@ -6,7 +6,9 @@
     
     @apply py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
-    dark:bg-gray-700;
+    dark:bg-gray-700
+
+    disabled:cursor-not-allowed;
 }
 
     .btn:not(.is-static){

@@ -1,130 +1,164 @@
 .spinner{
-    @apply border-t-gray-700 border-r-gray-700  border-transparent animate-spin inline-block w-8 h-8 border-2 rounded-full
+    animation:chakraspin 0.50s linear infinite;
+
+    @apply border-t-gray-700 border-r-gray-700  border-transparent inline-block w-8 h-8 border-2 rounded-full
+
     dark:border-t-gray-200 dark:border-r-gray-200;
 }
 
-    .spinner-xs{
+    .spinner.is-xs, .spinner.is-extrasmall{
         @apply w-4 h-4;
     }
 
-    .spinner-sm{
+    .spinner.is-sm, .spinner.is-small{
         @apply w-6 h-6;
     }
 
-    .spinner-lg{
+    .spinner.is-lg, .spinner.is-large{
         @apply w-10 h-10;
     }
 
-    .spinner-xl{
+    .spinner.is-xl, .spinner.is-extralarge{
         @apply w-12 h-12;
     }
 
-    .spinner-slate{
+    .spinner.is-slate{
             @apply border-t-slate-500 border-r-slate-500
+
             dark:border-t-slate-500 dark:border-r-slate-500;
         }
 
-    .spinner-gray{
+    .spinner.is-gray{
             @apply border-t-gray-500 border-r-gray-500
+
             dark:border-t-gray-500 dark:border-r-gray-500;
         }
 
-    .spinner-zinc{
+    .spinner.is-zinc{
             @apply border-t-zinc-500 border-r-zinc-500
+
             dark:border-t-zinc-500 dark:border-r-zinc-500;
         }
 
-    .spinner-neutral{
+    .spinner.is-neutral{
             @apply border-t-neutral-500 border-r-neutral-500
+
             dark:border-t-neutral-500 dark:border-r-neutral-500;
         }
 
-    .spinner-stone{
+    .spinner.is-stone{
             @apply border-t-stone-500 border-r-stone-500
+
             dark:border-t-stone-500 dark:border-r-stone-500;
         }
 
-    .spinner-red{
+    .spinner.is-red{
             @apply border-t-red-500 border-r-red-500
+
             dark:border-t-red-500 dark:border-r-red-500;
         }
 
-    .spinner-orange{
+    .spinner.is-orange{
             @apply border-t-orange-500 border-r-orange-500
+
             dark:border-t-orange-500 dark:border-r-orange-500;
         }
 
-    .spinner-amber{
+    .spinner.is-amber{
             @apply border-t-amber-500 border-r-amber-500
+
             dark:border-t-amber-500 dark:border-r-amber-500;
         }
 
-    .spinner-yellow{
+    .spinner.is-yellow{
             @apply border-t-yellow-500 border-r-yellow-500
+
             dark:border-t-yellow-500 dark:border-r-yellow-500;
         }
 
-    .spinner-lime{
+    .spinner.is-lime{
             @apply border-t-lime-500 border-r-lime-500
+
             dark:border-t-lime-500 dark:border-r-lime-500;
         }
 
-    .spinner-green{
+    .spinner.is-green{
             @apply border-t-green-500 border-r-green-500
+
             dark:border-t-green-500 dark:border-r-green-500;
         }
 
-    .spinner-emerald{
+    .spinner.is-emerald{
             @apply border-t-emerald-500 border-r-emerald-500
+
             dark:border-t-emerald-500 dark:border-r-emerald-500;
         }
 
-    .spinner-teal{
+    .spinner.is-teal{
             @apply border-t-teal-500 border-r-teal-500
+
             dark:border-t-teal-500 dark:border-r-teal-500;
         }
 
-    .spinner-cyan{
+    .spinner.is-cyan{
             @apply border-t-cyan-500 border-r-cyan-500
+
             dark:border-t-cyan-500 dark:border-r-cyan-500;
         }
 
-    .spinner-sky{
+    .spinner.is-sky{
             @apply border-t-sky-500 border-r-sky-500
+
             dark:border-t-sky-500 dark:border-r-sky-500;
         }
 
-    .spinner-blue{
+    .spinner.is-blue{
             @apply border-t-blue-500 border-r-blue-500
+
             dark:border-t-blue-500 dark:border-r-blue-500;
         }
 
-    .spinner-indigo{
+    .spinner.is-indigo{
             @apply border-t-indigo-500 border-r-indigo-500
+
             dark:border-t-indigo-500 dark:border-r-indigo-500;
         }
 
-    .spinner-violet{
+    .spinner.is-violet{
             @apply border-t-violet-500 border-r-violet-500
+
             dark:border-t-violet-500 dark:border-r-violet-500;
         }
 
-    .spinner-purple{
+    .spinner.is-purple{
             @apply border-t-purple-500 border-r-purple-500
+
             dark:border-t-purple-500 dark:border-r-purple-500;
         }
 
-    .spinner-fuchsia{
+    .spinner.is-fuchsia{
             @apply border-t-fuchsia-500 border-r-fuchsia-500
+
             dark:border-t-fuchsia-500 dark:border-r-fuchsia-500;
         }
 
-    .spinner-pink{
+    .spinner.is-pink{
             @apply border-t-pink-500 border-r-pink-500
+
             dark:border-t-pink-500 dark:border-r-pink-500;
         }
 
-    .spinner-rose{
+    .spinner.is-rose{
             @apply border-t-rose-500 border-r-rose-500
+
             dark:border-t-rose-500 dark:border-r-rose-500;
         }
+
+@keyframes chakraspin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

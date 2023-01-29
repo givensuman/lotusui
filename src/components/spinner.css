@@ -1,24 +1,39 @@
 .spinner {
-    @apply border-t-gray-700 border-r-gray-700  border-transparent animate-spin inline-block w-8 h-8 border-2 rounded-full
-    dark:border-t-gray-200 dark:border-r-gray-200;
+    animation: chakraspin 0.50s linear infinite;
 
-    &-xs {
+    @apply border-t-gray-700 border-r-gray-700  border-transparent inline-block w-8 h-8 border-2 rounded-full
+
+    dark:border-t-gray-200 dark:border-r-gray-200
+    ;
+
+    &.is-xs, &.is-extrasmall {
         @apply w-4 h-4;
     }
-    &-sm {
+    &.is-sm, &.is-small {
         @apply w-6 h-6;
     }
-    &-lg {
+    &.is-lg, &.is-large {
         @apply w-10 h-10;
     }
-    &-xl {
+    &.is-xl, &.is-extralarge {
         @apply w-12 h-12;
     }
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
-        &-$(color) {
+        &.is-$(color) {
             @apply border-t-$(color)-500 border-r-$(color)-500
-            dark:border-t-$(color)-500 dark:border-r-$(color)-500;
+
+            dark:border-t-$(color)-500 dark:border-r-$(color)-500
+            ;
         }
+    }
+}
+
+@keyframes chakraspin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
