@@ -42,23 +42,23 @@
                     @apply text-right;
                 }
 
-    .table-sm thead th, .table-sm tfoot th{
+    .table.is-sm thead th, .table.is-sm tfoot th, .table.is-small thead th, .table.is-small tfoot th{
                 @apply py-2;
             }
 
-    .table-sm tbody > tr th, .table-sm tbody > tr td{
+    .table.is-sm tbody > tr th, .table.is-sm tbody > tr td, .table.is-small tbody > tr th, .table.is-small tbody > tr td{
                 @apply py-1;
             }
 
-    .table-lg thead th, .table-lg tfoot th{
+    .table.is-lg thead th, .table.is-lg tfoot th, .table.is-large thead th, .table.is-large tfoot th{
                 @apply py-4;
             }
 
-    .table-lg tbody > tr th, .table-lg tbody > tr td{
+    .table.is-lg tbody > tr th, .table.is-lg tbody > tr td, .table.is-large tbody > tr th, .table.is-large tbody > tr td{
                 @apply py-6;
             }
 
-    .table-striped > tbody tr:nth-child(odd){
+    .table.is-striped > tbody tr:nth-child(odd){
             @apply bg-gray-100
             dark:bg-gray-700;
         }

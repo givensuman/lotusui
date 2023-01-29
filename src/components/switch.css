@@ -1,33 +1,39 @@
 .switch {
-    @apply appearance-none w-9 h-5 bg-gray-300 rounded-full transition-all duration-300 cursor-pointer flex items-center
+    @apply appearance-none w-9 h-5 bg-gray-300 rounded-full transition-transform transition-shadow duration-300 cursor-pointer flex items-center outline-none shrink-0
 
-    focus:outline-none focus:ring-2 focus:ring-gray-400/75
+    focus:ring-4 focus:ring-blue-400/75 
     
     dark:bg-gray-600
 
     checked:outline-none checked:bg-blue-500 checked:before:translate-x-full
-    checked:focus:ring-blue-400/75
     
     dark:checked:bg-blue-300
     
-    before:inline-block before:rounded-full before:bg-white before:h-4 before:w-4 before:mx-0.5 before:transition-all;
+    before:inline-block before:rounded-full before:bg-white before:h-4 before:w-4 before:mx-0.5 before:transition-all
+    ;
 
-    &-sm {
+    &.is-sm, &.is-small {
         @apply w-7 h-4
-        before:h-3 before:w-3;
+
+        before:h-3 before:w-3
+        ;
     }
 
-    &-lg {
+    &.is-lg, &.is-large {
         @apply w-11 h-6
-        before:h-5 before:w-5;
+
+        before:h-5 before:w-5
+        ;
     }
 
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
-        &-$(color) {
-            @apply
-            checked:focus:ring-$(color)-400/75
-            checked:bg-$(color)-500
-            dark:checked:bg-$(color)-500;
+        &.is-$(color) {
+            @apply checked:bg-$(color)-500
+
+            focus:ring-$(color)-400/75
+
+            dark:checked:bg-$(color)-500
+            ;
         }
     }
 }

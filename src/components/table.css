@@ -42,7 +42,9 @@
         }
     }
 
-    &-sm {
+    /* Size Variants */
+
+    &.is-sm, &.is-small {
         thead, tfoot {
             th {
                 @apply py-2;
@@ -56,7 +58,7 @@
         }
     }
 
-    &-lg {
+    &.is-lg, &.is-large {
         thead, tfoot {
             th {
                 @apply py-4;
@@ -70,7 +72,9 @@
         }
     }
 
-    &-striped > tbody {
+    /* Striped Variant */
+
+    &.is-striped > tbody {
         tr:nth-child(odd) {
             @apply bg-gray-100
             dark:bg-gray-700;
