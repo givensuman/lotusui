@@ -2,7 +2,7 @@
     width: fit-content;
     height: fit-content;
     
-    @apply justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
+    @apply py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
     dark:bg-gray-700
     ;
@@ -10,7 +10,7 @@
     &:not(.is-static) {
         @apply hover:transition-colors hover:bg-gray-200
 
-        focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-400/75
+        focus:z-10 focus:outline-none focus:ring-4 focus:ring-blue-400/75
 
         dark:hover:bg-gray-600
         ;
@@ -39,17 +39,22 @@
         ;
     }
     &.is-ghost:not(.is-static) {
-        @apply hover:bg-gray-200/50;
+        @apply hover:bg-gray-200/50
+        
+        dark:hover:bg-gray-600/50
+        ;
     }
 
     &.is-outline {
         @apply bg-transparent border-2 border-gray-200
 
-        dark:bg-transparent dark:text-inherit dark:border-gray-700
+        dark:bg-transparent dark:text-inherit dark:border-gray-600
         ;
     }
     &.is-outline:not(.is-static) {    
         @apply hover:bg-gray-200/50
+
+        dark:hover:bg-gray-600/50
         ;
     }
 
@@ -58,7 +63,7 @@
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
 
         &.is-$(color) {
-            @apply bg-$(color)-500 text-white 
+            @apply bg-$(color)-500 text-white
             
             dark:bg-$(color)-500
             ;

@@ -2,6 +2,8 @@ Fix button group sizing issue
 Prettier/ESLint
 Lyra search
 
+Improve Card
+
 --- Components ---
 Checkbox
 Number Input

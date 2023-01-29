@@ -42,7 +42,7 @@ export default function Button() {
             <button className="btn is-lg">.is-lg</button>
             </div>
             <h1>Color Variants</h1>
-            <div className="flex flex-wrap">
+            <div className="space-x-2 space-y-2">
                 <button className="btn is-slate">Slate</button>
                 <button className="btn is-gray">Gray</button>
                 <button className="btn is-zinc">Zinc</button>
@@ -66,7 +66,7 @@ export default function Button() {
                 <button className="btn is-pink">Pink</button>
                 <button className="btn is-rose">Rose</button>
             </div>
-            <div>
+            <div className="space-x-2 space-y-2">
                 <button className="btn is-outline is-slate">Slate</button>
                 <button className="btn is-outline is-gray">Gray</button>
                 <button className="btn is-outline is-zinc">Zinc</button>
@@ -90,7 +90,7 @@ export default function Button() {
                 <button className="btn is-outline btnis-pink">Pink</button>
                 <button className="btn is-outline is-rose">Rose</button>
             </div>
-            <div>
+            <div className="space-x-2 space-y-2">
                 <button className="btn is-ghost is-slate">Slate</button>
                 <button className="btn is-ghost is-gray">Gray</button>
                 <button className="btn is-ghost is-zinc">Zinc</button>

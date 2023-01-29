@@ -4,7 +4,7 @@
     height:-moz-fit-content;
     height:fit-content;
     
-    @apply justify-center py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
+    @apply py-2 px-4 font-semibold text-lg rounded-md cursor-pointer bg-gray-100   
 
     dark:bg-gray-700;
 }
@@ -12,7 +12,7 @@
     .btn:not(.is-static){
         @apply hover:transition-colors hover:bg-gray-200
 
-        focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-400/75
+        focus:z-10 focus:outline-none focus:ring-4 focus:ring-blue-400/75
 
         dark:hover:bg-gray-600;
     }
@@ -36,21 +36,25 @@
     }
 
     .btn.is-ghost:not(.is-static){
-        @apply hover:bg-gray-200/50;
+        @apply hover:bg-gray-200/50
+        
+        dark:hover:bg-gray-600/50;
     }
 
     .btn.is-outline{
         @apply bg-transparent border-2 border-gray-200
 
-        dark:bg-transparent dark:text-inherit dark:border-gray-700;
+        dark:bg-transparent dark:text-inherit dark:border-gray-600;
     }
 
     .btn.is-outline:not(.is-static){    
-        @apply hover:bg-gray-200/50;
+        @apply hover:bg-gray-200/50
+
+        dark:hover:bg-gray-600/50;
     }
 
     .btn.is-slate{
-            @apply bg-slate-500 text-white 
+            @apply bg-slate-500 text-white
             
             dark:bg-slate-500;
         }
@@ -88,7 +92,7 @@
         }
 
     .btn.is-gray{
-            @apply bg-gray-500 text-white 
+            @apply bg-gray-500 text-white
             
             dark:bg-gray-500;
         }
@@ -126,7 +130,7 @@
         }
 
     .btn.is-zinc{
-            @apply bg-zinc-500 text-white 
+            @apply bg-zinc-500 text-white
             
             dark:bg-zinc-500;
         }
@@ -164,7 +168,7 @@
         }
 
     .btn.is-neutral{
-            @apply bg-neutral-500 text-white 
+            @apply bg-neutral-500 text-white
             
             dark:bg-neutral-500;
         }
@@ -202,7 +206,7 @@
         }
 
     .btn.is-stone{
-            @apply bg-stone-500 text-white 
+            @apply bg-stone-500 text-white
             
             dark:bg-stone-500;
         }
@@ -240,7 +244,7 @@
         }
 
     .btn.is-red{
-            @apply bg-red-500 text-white 
+            @apply bg-red-500 text-white
             
             dark:bg-red-500;
         }
@@ -278,7 +282,7 @@
         }
 
     .btn.is-orange{
-            @apply bg-orange-500 text-white 
+            @apply bg-orange-500 text-white
             
             dark:bg-orange-500;
         }
@@ -316,7 +320,7 @@
         }
 
     .btn.is-amber{
-            @apply bg-amber-500 text-white 
+            @apply bg-amber-500 text-white
             
             dark:bg-amber-500;
         }
@@ -354,7 +358,7 @@
         }
 
     .btn.is-yellow{
-            @apply bg-yellow-500 text-white 
+            @apply bg-yellow-500 text-white
             
             dark:bg-yellow-500;
         }
@@ -392,7 +396,7 @@
         }
 
     .btn.is-lime{
-            @apply bg-lime-500 text-white 
+            @apply bg-lime-500 text-white
             
             dark:bg-lime-500;
         }
@@ -430,7 +434,7 @@
         }
 
     .btn.is-green{
-            @apply bg-green-500 text-white 
+            @apply bg-green-500 text-white
             
             dark:bg-green-500;
         }
@@ -468,7 +472,7 @@
         }
 
     .btn.is-emerald{
-            @apply bg-emerald-500 text-white 
+            @apply bg-emerald-500 text-white
             
             dark:bg-emerald-500;
         }
@@ -506,7 +510,7 @@
         }
 
     .btn.is-teal{
-            @apply bg-teal-500 text-white 
+            @apply bg-teal-500 text-white
             
             dark:bg-teal-500;
         }
@@ -544,7 +548,7 @@
         }
 
     .btn.is-cyan{
-            @apply bg-cyan-500 text-white 
+            @apply bg-cyan-500 text-white
             
             dark:bg-cyan-500;
         }
@@ -582,7 +586,7 @@
         }
 
     .btn.is-sky{
-            @apply bg-sky-500 text-white 
+            @apply bg-sky-500 text-white
             
             dark:bg-sky-500;
         }
@@ -620,7 +624,7 @@
         }
 
     .btn.is-blue{
-            @apply bg-blue-500 text-white 
+            @apply bg-blue-500 text-white
             
             dark:bg-blue-500;
         }
@@ -658,7 +662,7 @@
         }
 
     .btn.is-indigo{
-            @apply bg-indigo-500 text-white 
+            @apply bg-indigo-500 text-white
             
             dark:bg-indigo-500;
         }
@@ -696,7 +700,7 @@
         }
 
     .btn.is-violet{
-            @apply bg-violet-500 text-white 
+            @apply bg-violet-500 text-white
             
             dark:bg-violet-500;
         }
@@ -734,7 +738,7 @@
         }
 
     .btn.is-purple{
-            @apply bg-purple-500 text-white 
+            @apply bg-purple-500 text-white
             
             dark:bg-purple-500;
         }
@@ -772,7 +776,7 @@
         }
 
     .btn.is-fuchsia{
-            @apply bg-fuchsia-500 text-white 
+            @apply bg-fuchsia-500 text-white
             
             dark:bg-fuchsia-500;
         }
@@ -810,7 +814,7 @@
         }
 
     .btn.is-pink{
-            @apply bg-pink-500 text-white 
+            @apply bg-pink-500 text-white
             
             dark:bg-pink-500;
         }
@@ -848,7 +852,7 @@
         }
 
     .btn.is-rose{
-            @apply bg-rose-500 text-white 
+            @apply bg-rose-500 text-white
             
             dark:bg-rose-500;
         }
