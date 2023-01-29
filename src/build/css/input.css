@@ -1,44 +1,52 @@
 .input{
-    @apply w-full block px-3 py-2 border border-gray-200 rounded-md bg-transparent transition-colors
-    focus:outline-none focus:ring-gray-400/75 focus:ring-4 focus:border-blue-500
-    dark:placeholder-gray-200 dark:border-gray-700 dark:focus:border-blue-300 dark:focus:ring-gray-400/75;
+    @apply w-full block px-3 py-2 border border-gray-200 rounded-md bg-transparent
+
+    hover:transition-colors
+
+    dark:placeholder-gray-200 dark:border-gray-700;
 }
 
-    .input:not(.input-static){
+    .input:not(.input.is-static){
         @apply hover:border-gray-300
+
+        focus:outline-none focus:ring-blue-400/75 focus:ring-4
+
         dark:hover:border-gray-600;
     }
 
-    .input-xs{
+    .input.is-xs, .input.is-extrasmall{
         @apply px-1.5 py-px text-xs rounded-sm;
     }
 
-    .input-sm{
+    .input.is-sm, .input.is-small{
         @apply px-2 py-1 text-sm rounded-sm;
     }
 
-    .input-lg{
+    .input.is-lg, .input.is-large{
         @apply px-4 py-3 text-lg;
     }
 
-    .input-filled{
+    .input.is-filled{
         @apply bg-gray-100 border-transparent focus:bg-transparent focus:border-transparent
         dark:bg-gray-700 dark:focus:bg-transparent;
     }
 
-    .input-filled:not(.input-static){
+    .input.is-filled:not(.is-static){
             @apply hover:bg-gray-200 hover:border-transparent
+
             focus:hover:bg-transparent
             focus:hover:border-transparent
+
             dark:hover:bg-gray-600 dark:hover:border-transparent
             dark:focus:hover:bg-transparent;
         }
 
-    .input-flushed{
+    .input.is-flushed{
         @apply rounded-none border-t-0 border-r-0 border-l-0 border-b box-border
-        focus:border-sky-200 focus:border-b-4 focus:ring-0 focus:hover:border-sky-200 focus:-mb-1;
+
+        focus:rounded-md;
     }
 
-    .input-unstyled{
+    .input.is-unstyled{
         @apply border-none;
     }
