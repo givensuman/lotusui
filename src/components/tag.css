@@ -2,29 +2,55 @@
     height: fit-content;
     width: fit-content;
 
-    @apply bg-gray-200 text-gray-900 font-semibold text-lg rounded-md px-2 inline-flex items-center
-    dark:bg-gray-700 dark:text-inherit;
+    @apply bg-gray-100 font-semibold text-lg rounded-md inline-flex px-2 items-center
 
-    &-sm {
+    dark:bg-gray-600
+    ;
+
+    /* Size Variants */
+
+    &.is-sm, &.is-small {
         @apply text-base;
     }
 
-    &-lg {
+    &.is-lg, &.is-large {
         @apply text-xl px-3 py-1;
     }
 
+    /* Style Variants */
+
+    &.is-solid {
+        @apply bg-gray-500 text-white
+        
+        dark:bg-gray-500
+        ;
+    }
+
+    &.is-outline {
+        @apply bg-transparent border-2 border-gray-600
+
+        dark:border-gray-300 dark:bg-transparent
+        ;
+    }
+
     @each $color in slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose {
-        &-$(color) {
+        &.is-$(color) {
             @apply bg-$(color)-200/75 text-$(color)-700
-            dark:bg-$(color)-400/25 dark:text-$(color)-300;
+
+            dark:bg-$(color)-400/25 dark:text-$(color)-300
+            ;
         }
-        &-$(color).tag-solid {
+        &.is-$(color).is-solid {
             @apply bg-$(color)-500 text-white
-            dark:bg-$(color)-500;
+
+            dark:bg-$(color)-500
+            ;
         }
-        &-$(color).tag-outline {
+        &.is-$(color).is-outline {
             @apply bg-transparent border-2 border-$(color)-500 text-$(color)-700
-            dark:text-$(color)-300;
+
+            dark:text-$(color)-300
+            ;
         }
     }
 }

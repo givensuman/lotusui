@@ -3,6 +3,7 @@ const app = require("./jss/app.js");
 const badge = require("./jss/badge.js");
 const button = require("./jss/button.js");
 const card = require("./jss/card.js");
+const checkbox = require("./jss/checkbox.js");
 const divider = require("./jss/divider.js");
 const input = require("./jss/input.js");
 const kbd = require("./jss/kbd.js");
@@ -16,6 +17,7 @@ const tag = require("./jss/tag.js");
 ...badge,
 ...button,
 ...card,
+...checkbox,
 ...divider,
 ...input,
 ...kbd,

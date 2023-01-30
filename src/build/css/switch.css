@@ -5,7 +5,9 @@
     
     dark:bg-gray-600
 
-    checked:outline-none checked:bg-blue-500 checked:before:translate-x-full
+    checked:outline-none checked:bg-blue-500 
+    
+    checked:before:translate-x-full
     
     dark:checked:bg-blue-300
     
